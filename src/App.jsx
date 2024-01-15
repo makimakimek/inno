@@ -39,13 +39,31 @@ function App() {
           </div>
 
           <div className = "headerAndImageRight">
-            <img src = {placeholder} className = "container1Image" alt="placeholder for now"/>
+            <img src = {placeholder} className = "container1Image" alt = "placeholder for now"/>
           </div>
         </div>
       </div>
 
       <div className = "container2">
-        
+        <div className = "container2Left">
+          <div className = "container2Image">
+            <img src = {placeholder} className = "container2Image" alt = "placeholder for now"/>
+          </div>
+        </div>
+
+        <div className = "container2Right">
+          <div className = "container2Title">
+            Hizmetlerimiz
+          </div>
+
+          <div className = "listOfServices">
+              <div>hizmetlerimiz icin alt baslik</div>
+              <div>hizmetlerimiz icin alt baslik</div>
+              <div>hizmetlerimiz icin alt baslik</div>
+              <div>hizmetlerimiz icin alt baslik</div>
+              <div>hizmetlerimiz icin alt baslik</div>
+          </div>
+        </div>
       </div>
     </div>
     </>
