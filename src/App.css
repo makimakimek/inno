@@ -11,18 +11,18 @@
 }
 
 .container1 {
-  background-color: #00008B;
   display: flex;
   flex-direction: column;
 }
 
 .navigationContainer {
+  background-color: #00008B;
   display: flex;
   width: 1820px;
   justify-content: space-between;
   align-items: center;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 }
 
 .navigationLeft {
@@ -43,4 +43,47 @@
 
 .link {
   
+}
+
+.headerAndImageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 4em;
+}
+
+.headerAndImageLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 2em;
+}
+
+.titleHeader {
+  font-size: 2em;
+}
+
+.subHeader {
+  font-size: 1em;
+}
+
+.headerAndImageRight {
+  display: flex;
+  align-items: center;
+}
+
+.container1Image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+  max-width: 25em;
+}
+
+#callToActionButton {
+  background-color: #00008B;
+  color: white;
+  font-size: 1em;
+  opacity: 0.8;
 }

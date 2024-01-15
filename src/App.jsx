@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import placeholder from './assets/placeholder.jpg'
 import './App.css'
 
 function App() {
@@ -23,6 +22,30 @@ function App() {
             <div className = "link">İletişim</div>
           </div>
         </div>
+
+        <div className = "headerAndImageContainer">
+          <div className = "headerAndImageLeft">
+            <div className = "titleHeader">
+              a short main header to explain purpose
+            </div>
+            
+            <div className = "subHeader">
+              a sub-header - a bit more detail but still should be short
+            </div>
+
+            <div className = "callToAction">
+              <button id = "callToActionButton">Bize Ulaşın</button>
+            </div>
+          </div>
+
+          <div className = "headerAndImageRight">
+            <img src = {placeholder} className = "container1Image" alt="placeholder for now"/>
+          </div>
+        </div>
+      </div>
+
+      <div className = "container2">
+        
       </div>
     </div>
     </>
