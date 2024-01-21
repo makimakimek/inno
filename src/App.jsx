@@ -1,10 +1,10 @@
 import { useState } from 'react'
 import placeholder from './assets/placeholder.jpg'
+import placeholder2 from './assets/placeholder2.png'
 import './App.css'
+import { Link } from "react-router-dom";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
     <div className = "page">
@@ -15,53 +15,32 @@ function App() {
           </div>
 
           <div className = "navigationRight">
-            <div className = "link">Anasayfa</div>
-            <div className = "link">Hakkımızda</div>
-            <div className = "link">Hizmetlerimiz</div>
-            <div className = "link">Ürünlerimiz</div>
+            <div className = "link"><a href = "/" className = "whiteLink">Anasayfa</a></div>
+            <div className = "link"><Link to = "products" className = "whiteLink">Ürünlerimiz</Link></div>
             <div className = "link">İletişim</div>
           </div>
         </div>
 
-        <div className = "headerAndImageContainer">
-          <div className = "headerAndImageLeft">
-            <div className = "titleHeader">
-              a short main header to explain purpose
-            </div>
-            
-            <div className = "subHeader">
-              a sub-header - a bit more detail but still should be short
-            </div>
-
-            <div className = "callToAction">
-              <button id = "callToActionButton">Bize Ulaşın</button>
-            </div>
-          </div>
-
-          <div className = "headerAndImageRight">
-            <img src = {placeholder} className = "container1Image" alt = "placeholder for now"/>
-          </div>
+        <div className = "imageContainer">
+          <img src = {placeholder2} className = "container1Image" alt = "a placeholder image for now"/>
         </div>
       </div>
-
+      
       <div className = "container2">
-        <div className = "container2Left">
-          <div className = "container2Image">
-            <img src = {placeholder} className = "container2Image" alt = "placeholder for now"/>
+        <div className = "aboutContainer">
+          <div className = "lineBefore"></div>
+          <div className = "aboutTitle">
+            Hakkımızda
           </div>
+          <div className = "lineAfter"></div>
         </div>
 
-        <div className = "container2Right">
-          <div className = "container2Title">
-            Hizmetlerimiz
-          </div>
-
-          <div className = "listOfServices">
-              <div>hizmetlerimiz icin alt baslik</div>
-              <div>hizmetlerimiz icin alt baslik</div>
-              <div>hizmetlerimiz icin alt baslik</div>
-              <div>hizmetlerimiz icin alt baslik</div>
-              <div>hizmetlerimiz icin alt baslik</div>
+        <div className = "aboutParagraph">
+          <div className = "innerParagraphContainer">
+          Buraya inno hakkinda bir paragraf gelecek. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+          dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa 
+          qui officia deserunt mollit anim id est laborum.
           </div>
         </div>
       </div>

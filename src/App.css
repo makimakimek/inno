@@ -1,76 +1,56 @@
 #root {
-  max-width: 1820px;
   margin: 0 auto;
+  background-color: white;
 }
 
 .page {
   display: flex;
   flex-direction: column;
-  height: 200vh;
-  overflow: auto;
-  font-family: Impact, Haettenschweiler, sans-serif;
+  min-width: 100vw;
+  min-height: 100vh;
 }
 
 .container1 {
   display: flex;
   flex-direction: column;
-  border-bottom: 0.15em solid #00008B;
 }
 
 .navigationContainer {
   background-color: #00008B;
   display: flex;
-  width: 1820px;
   justify-content: space-between;
   align-items: center;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .navigationLeft {
-  font-size: 1.5em;
+  font-size: 28px;
   color: white;
-  margin-left: 3em;
+  margin-left: 3vw;
 }
 
 .navigationRight {
-  font-size: 1em;
+  font-size: 16px;
   color: white;
   display: flex;
-  margin-right: 5em;
-  gap: 4em;
+  margin-right: 5vw;
+  gap: 50px;
 }
 
 .link {
   
 }
 
-.headerAndImageContainer {
+.whiteLink {
+  color: white;
+  text-decoration: none;
+}
+
+.imageContainer {
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  padding-top: 6em;
-  padding-bottom: 6em;
-}
-
-.headerAndImageLeft {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  gap: 2em;
-}
-
-.titleHeader {
-  font-size: 2em;
-}
-
-.subHeader {
-  font-size: 1em;
-}
-
-.headerAndImageRight {
-  display: flex;
-  align-items: center;
+  justify-content: center;
+  margin-bottom: 2vh;
 }
 
 .container1Image {
@@ -79,53 +59,48 @@
   justify-content: center;
   height: auto;
   width: 100%;
-  max-width: 25em;
+  max-width: 90vw;
+  margin-top: 2vh;
 }
 
-#callToActionButton {
-  background-color: #00008B;
-  color: white;
-  font-size: 1em;
-  opacity: 0.8;
-}
-
-/*/////////////////////container2///////////////////////////*/
-
-.container2 {
-  display: flex;
-  justify-content: space-evenly;
-  padding-top: 6em;
-  padding-bottom: 6em;
-  border-bottom: 0.15em solid #00008B;
-}
-
-.container2Left {
+.aboutContainer {
   display: flex;
   align-items: center;
 }
 
-.container2Image {
+.lineBefore {
+  flex: 1 1;
+  height: 0.15vh;
+  background: #191970;
+  margin-left: 5vw;
+}
+
+.aboutTitle {
+  margin: 0 2vw;
+  font-size: 30px;
+  font-weight: bold;
+  color: #034566;
+}
+
+.lineAfter {
+  flex: 1 1;
+  height: 0.15vh;
+  background: #191970;
+  margin-right: 5vw;
+}
+
+.aboutParagraph {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: auto;
-  width: 100%;
-  max-width: 25em;
+  margin-top: 2vh;
 }
 
-.container2Right {
-  display: flex;
-  flex-direction: column;
-  gap: 1em;
-}
-
-.container2Title {
-  font-size: 2em;
-}
-
-.listOfServices {
-  font-size: 1em;
-  display: flex;
-  flex-direction: column;
-  gap: 1em;
+.innerParagraphContainer {
+  font-size: 20px;
+  color: #034566;
+  width: 100%; 
+  max-width: 65vw;
+  word-wrap: break-word;
 }
