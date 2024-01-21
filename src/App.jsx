@@ -17,7 +17,7 @@ function App() {
           <div className = "navigationRight">
             <div className = "link"><a href = "/" className = "whiteLink">Anasayfa</a></div>
             <div className = "link"><Link to = "products" className = "whiteLink">Ürünlerimiz</Link></div>
-            <div className = "link">İletişim</div>
+            <div className = "link"><Link to = "contact" className = "whiteLink">İletişim</Link></div>
           </div>
         </div>
 

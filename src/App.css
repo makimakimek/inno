@@ -104,3 +104,37 @@
   max-width: 65vw;
   word-wrap: break-word;
 }
+
+/*///////////////////products page /////////////////////*/
+
+.pageTitle {
+  font-size: 30px;
+  font-weight: bold;
+  color: #034566;
+  text-align: center;
+  margin-top: 4vh;
+}
+
+.productImageFlexboxContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+}
+
+.productImageFlexboxContainer > div {
+  display: flex;
+  gap: 60px;
+}
+
+.productImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+  max-width: 15vw;
+}
