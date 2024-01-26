@@ -1,12 +1,8 @@
 import { useState } from 'react'
 import './App.css'
 import { Link } from "react-router-dom";
-import placeholder from './assets/placeholder.jpg'
-import kalem1 from './assets/kalem1.JPG'
-import defter1 from './assets/defter1.JPG'
-import defter2 from './assets/defter2.jpg'
 
-function PrintingPress() {
+function Glass() {
     return (
         <>
         <div className = "page">
@@ -33,21 +29,9 @@ function PrintingPress() {
                     </div>
                 </div>
             </div>
-
-            <div className = "pageTitle">
-                Matbaa Ürünlerimiz
-            </div>
-
-            <div className = "productImageFlexboxContainer">
-                <div className = "printingPressImageContainer">
-                    <img src = {kalem1} className = "productImage" alt = "an image of a pen"/>
-                    <img src = {defter1} className = "productImage" alt = "an image of a notebook"/>
-                    <img src = {defter2} className = "productImage" alt = "an image of a notebook"/>
-                </div>
-            </div>
         </div>
         </>
       )
 }
 
-export default PrintingPress
+export default Glass

@@ -7,6 +7,8 @@ import Products from './Products'
 import Contact from './Contact'
 import Textile from './Textile'
 import PrintingPress from './PrintingPress'
+import Glass from './Glass'
+import Ceramic from './Ceramic'
 
 const router = createBrowserRouter([
   {
@@ -28,6 +30,14 @@ const router = createBrowserRouter([
   {
     path: "PrintingPress",
     element: <PrintingPress />,
+  },
+  {
+    path: "glass",
+    element: <Glass />,
+  },
+  {
+    path: "ceramic",
+    element: <Ceramic />,
   },
 ]);
 

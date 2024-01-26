@@ -1,12 +1,10 @@
 import { useState } from 'react'
 import './App.css'
 import { Link } from "react-router-dom";
-import placeholder from './assets/placeholder.jpg'
-import kalem1 from './assets/kalem1.JPG'
-import defter1 from './assets/defter1.JPG'
-import defter2 from './assets/defter2.jpg'
+import kupa1 from './assets/kupa1.JPG'
+import kupa2 from './assets/kupa2.JPG'
 
-function PrintingPress() {
+function Ceramic() {
     return (
         <>
         <div className = "page">
@@ -35,19 +33,19 @@ function PrintingPress() {
             </div>
 
             <div className = "pageTitle">
-                Matbaa Ürünlerimiz
+                Seramik Ürünlerimiz
             </div>
 
             <div className = "productImageFlexboxContainer">
-                <div className = "printingPressImageContainer">
-                    <img src = {kalem1} className = "productImage" alt = "an image of a pen"/>
-                    <img src = {defter1} className = "productImage" alt = "an image of a notebook"/>
-                    <img src = {defter2} className = "productImage" alt = "an image of a notebook"/>
+                <div className = "ceramicImageContainer">
+                    <img src = {kupa1} className = "productImage" alt = "an image of a mug"/>
+                    <img src = {kupa2} className = "productImage" alt = "an image of a mug"/>
                 </div>
             </div>
+
         </div>
         </>
       )
 }
 
-export default PrintingPress
+export default Ceramic

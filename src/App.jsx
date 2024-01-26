@@ -20,14 +20,14 @@ function App() {
             <div className = "dropdown">
               <div className = "whiteLink">Ürünlerimiz</div>
               <div className = "dropdownContent">
-                <a href = "#"><Link to = "PrintingPress">Matbaa</Link></a>
-                <a href = "#"><Link to = "textile">Tekstil</Link></a>
-                <a href = "#"><Link to = "products">Cam</Link></a>
-                <a href = "#"><Link to = "products">Seramik</Link></a>
+                <a href = "PrintingPress">Matbaa</a>
+                <a href = "textile">Tekstil</a>
+                <a href = "glass">Cam</a>
+                <a href = "ceramic">Seramik</a>
               </div>
             </div>
             
-            <div className = "link"><Link to = "contact" className = "whiteLink">İletişim</Link></div>
+            <div className = "link"><a href = "contact" className = "whiteLink">İletişim</a></div>
           </div>
         </div>
 

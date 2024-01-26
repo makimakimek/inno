@@ -14,8 +14,18 @@ function Contact() {
 
                     <div className = "navigationRight">
                         <div className = "link"><a href = "/" className = "whiteLink">Anasayfa</a></div>
-                        <div className = "link"><Link to = "/products" className = "whiteLink">Ürünlerimiz</Link></div>
-                        <div className = "link"><Link to = "/contact" className = "whiteLink">İletişim</Link></div>
+            
+                        <div className = "dropdown">
+                            <div className = "whiteLink">Ürünlerimiz</div>
+                            <div className = "dropdownContent">
+                                <a href = "PrintingPress">Matbaa</a>
+                                <a href = "textile">Tekstil</a>
+                                <a href = "glass">Cam</a>
+                                <a href = "ceramic">Seramik</a>
+                            </div>
+                        </div>
+            
+                        <div className = "link"><a href = "contact" className = "whiteLink">İletişim</a></div>
                     </div>
                 </div>
             </div>
