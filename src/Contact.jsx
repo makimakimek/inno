@@ -16,7 +16,7 @@ function Contact() {
                         <div className = "link"><a href = "/" className = "whiteLink">Anasayfa</a></div>
             
                         <div className = "dropdown">
-                            <div className = "whiteLink">Ürünlerimiz</div>
+                            <div className = "products"><a href = "/" className = "whiteLink">Ürünlerimiz</a></div>
                             <div className = "dropdownContent">
                                 <a href = "PrintingPress">Matbaa</a>
                                 <a href = "textile">Tekstil</a>
