@@ -6,6 +6,7 @@ import './index.css'
 import Products from './Products'
 import Contact from './Contact'
 import Textile from './Textile'
+import PrintingPress from './PrintingPress'
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
   {
     path: "textile",
     element: <Textile />,
+  },
+  {
+    path: "PrintingPress",
+    element: <PrintingPress />,
   },
 ]);
 
