@@ -5,6 +5,7 @@ import App from './App.jsx'
 import './index.css'
 import Products from './Products'
 import Contact from './Contact'
+import Textile from './Textile'
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
   {
     path: "contact",
     element: <Contact />,
+  },
+  {
+    path: "textile",
+    element: <Textile />,
   },
 ]);
 

@@ -126,6 +126,7 @@
   align-items: center;
   justify-content: center;
   margin-top: 2vh;
+  gap: 25px;
 }
 
 .innerParagraphContainer {
@@ -149,16 +150,16 @@
 .productImageFlexboxContainer {
   display: flex;
   flex-direction: column;
-  gap: 60px;
+  gap: 100px;
   justify-content: center;
   align-items: center;
   margin-top: 4vh;
-  margin-bottom: 4vh;
+  margin-bottom: 10vh;
 }
 
 .productImageFlexboxContainer > div {
   display: flex;
-  gap: 60px;
+  gap: 100px;
 }
 
 .productImage {

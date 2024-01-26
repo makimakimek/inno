@@ -21,7 +21,7 @@ function App() {
               <div className = "whiteLink">Ürünlerimiz</div>
               <div className = "dropdownContent">
                 <a href = "#"><Link to = "products">Matbaa</Link></a>
-                <a href = "#"><Link to = "products">Tekstil</Link></a>
+                <a href = "#"><Link to = "textile">Tekstil</Link></a>
                 <a href = "#"><Link to = "products">Product 3</Link></a>
               </div>
             </div>
@@ -46,10 +46,21 @@ function App() {
 
         <div className = "aboutParagraph">
           <div className = "innerParagraphContainer">
-          Buraya inno hakkinda bir paragraf gelecek. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-          dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa 
-          qui officia deserunt mollit anim id est laborum.
+            Firma kurucuları Şebnem Keskin ve Ayşegül Özata uzun yıllar kurumsal firmalarda üst düzey yöneticilik yaptıktan sonra İnno Promosyon Organizasyonu kurdular. 
+          </div>
+
+          <div className = "innerParagraphContainer">
+            Tasarlayan ile kullanan arasında köprü görevi anlayışımızlaö ürün geliştirme sürecini, hem yurtdışı, hem de yurtiçi, çözüm ortaklarımızla koordine ederek, 
+            müşterilerimize, en iyi promosyon ve pazarlama hizmeti sunuyoruz. 
+          </div>
+
+          <div className = "innerParagraphContainer">
+            Ülkemizin birçok bölgesinde özel üretilen tekstil, ahşap, cam ve seramikten yapılan otantik 
+            ürünlerin, yurt dışına tanıtımı, marka değerinin artırılması, pazarlanması ve ihracatı konusunda uzman kadromuz ile hizmet üretiyoruz. 
+          </div>
+
+          <div className = "innerParagraphContainer">
+            Ayrıca, müşterilerimizin özel ihtiyacı olan farklı promosyon ürünlerini analiz ederek, rekabetçi fiyatla ve optimum sürede temin ediyoruz.
           </div>
         </div>
       </div>
