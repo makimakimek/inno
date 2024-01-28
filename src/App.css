@@ -170,3 +170,49 @@
   width: 100%;
   max-width: 15vw;
 }
+
+
+/*//////////////////////////////////contact section//////////////////////////////////*/
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.contactForm > div {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  margin-top: 5vh;
+}
+
+.messageContainer {
+  min-width: 400px;
+  min-height: 10vh;
+  margin-bottom: 40px;
+}
+
+.contactContainer label {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.contactContainerMessage label {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.submitButton {
+  margin: 0.2em;
+  color: white;
+  background-color: #219EBC;
+  border-radius: 1.5em;
+  width: 200px;
+  height: 60px;
+  border: 1px solid #219EBC;
+  font-size: 20px;
+  opacity: 0.7;
+}

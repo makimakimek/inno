@@ -46,16 +46,35 @@ function Contact() {
                 İletişim
             </div>
 
-            <form onSubmit = {handleSubmit}>
-                <label>Enter your name:
-                    <input type = "text" name = "username" value = {inputs.username || ""} onChange={handleChange} />
-                </label>
+            <form className = "contactForm" onSubmit = {handleSubmit}>
+                <div className = "contactContainer">
+                    <label>Adınız:
+                        <input type = "text" name = "firstname" value = {inputs.firstname || ""} onChange={handleChange} />
+                    </label>
       
-                <label>Enter your age:
-                    <input type = "number" name = "age" value={inputs.age || ""} onChange={handleChange} />
-                </label>
-            
-                <input type="submit" />
+                    <label>Soyadınız:
+                        <input type = "text" name = "lastname" value={inputs.lastname || ""} onChange={handleChange} />
+                    </label>
+                </div>
+
+                <div className = "contactContainer">
+                    <label>E-Posta:
+                        <input type = "text" name = "email" value = {inputs.email || ""} onChange={handleChange} />
+                    </label>
+      
+                    <label>Telefon:
+                        <input type = "number" name = "phone" value={inputs.phone || ""} onChange={handleChange} />
+                    </label>
+                </div>
+
+                <div className = "contactContainerMessage">
+                    <label>Mesajınız:
+                        <input type = "text" className = "messageContainer" name = "message" value = {inputs.message || ""} onChange = {handleChange} />
+                    </label>
+                </div>
+                
+
+                <input type="submit" className = "submitButton" value = "Gönder"/>
             </form>
 
         </div>
