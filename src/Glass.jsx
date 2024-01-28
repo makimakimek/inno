@@ -29,6 +29,10 @@ function Glass() {
                     </div>
                 </div>
             </div>
+
+            <div className = "pageTitle">
+                Cam Ürünlerimiz
+            </div>
         </div>
         </>
       )
