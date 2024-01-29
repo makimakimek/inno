@@ -94,7 +94,7 @@
   margin-top: 2vh;
 }
 
-.aboutContainer {
+.aboutContainer, .innerContainer {
   display: flex;
   align-items: center;
 }
@@ -106,7 +106,7 @@
   margin-left: 5vw;
 }
 
-.aboutTitle {
+.aboutTitle, .productsAndServicesTitle {
   margin: 0 1vw;
   font-size: 30px;
   font-weight: 450;
@@ -120,7 +120,7 @@
   margin-right: 5vw;
 }
 
-.aboutParagraph {
+.aboutParagraph, .productsAndServicesParagraph{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -137,7 +137,15 @@
   word-wrap: break-word;
 }
 
-/*///////////////////products page /////////////////////*/
+.innerContainer {
+  margin-top: 5vh;
+}
+
+.productsAndServicesParagraph {
+  margin-bottom: 5vh;
+}
+
+/*///////////////////products page/////////////////////*/
 
 .pageTitle {
   font-size: 30px;

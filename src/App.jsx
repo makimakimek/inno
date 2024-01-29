@@ -65,6 +65,26 @@ function App() {
           </div>
         </div>
       </div>
+
+      <div className = "productsAndServicesContainer">
+        <div className = "innerContainer">
+          <div className = "lineBefore"></div>
+          <div className = "productsAndServicesTitle">
+            Ürün ve Hizmetlerimiz
+          </div>
+          <div className = "lineAfter"></div>
+        </div>
+
+        <div className = "productsAndServicesParagraph">
+          <div className = "innerParagraphContainer">
+            Öncelikle ülkemizin yerel kumaşlarını ilgili bölgelerden temin ediyoruz. Bu kumaşlar ile kendi tasarımımızı yapmak dışında müşterilerimizin bizden
+            talep ettiği tasarımları da üretiyoruz. Otel ve Restoranların tekstil ihtiyaçlarını, talep ettikleri şekilde, üretiyor, istenirse firma logoları ile 
+            bu ürünleri kişiselleştiriyoruz. Otel ve restoranlar ile ilgili ürün yelpazemizde peçete, masa örtüsü, nevresim takımları, kırlentler ön planda yer 
+            alıyor. Ayrıca, özel döşemelik kumaşların, tül ve perdelerin tedarik ve uygulamalarını da sağlıyoruz. Promosyon ürünlerinde kurumsal firmalarımızın 
+            ihtiyacı olan seramik, cam, ahşap ve kırtasiye ürünlerini de temin ediyoruz.
+          </div>
+        </div>
+      </div>
     </div>
     </>
   )
