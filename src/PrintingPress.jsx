@@ -39,10 +39,12 @@ function PrintingPress() {
             </div>
 
             <div className = "productImageFlexboxContainer">
-                <div className = "printingPressImageContainer">
-                    <img src = {kalem1} className = "productImage" alt = "an image of a pen"/>
-                    <img src = {defter1} className = "productImage" alt = "an image of a notebook"/>
-                    <img src = {defter2} className = "productImage" alt = "an image of a notebook"/>
+                <div className = "printingPressImages">
+                    <div className = "printingPressImageContainer">
+                        <img src = {kalem1} className = "productImage" alt = "an image of a pen"/>
+                        <img src = {defter1} className = "productImage" alt = "an image of a notebook"/>
+                        <img src = {defter2} className = "productImage" alt = "an image of a notebook"/>
+                    </div>
                 </div>
             </div>
         </div>

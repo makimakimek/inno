@@ -11,6 +11,10 @@ import yastik6 from './assets/yastik6.jpg'
 import yastik7 from './assets/yastik7.jpg'
 import yastik8 from './assets/yastik8.jpg'
 import yastik9 from './assets/yastik9.jpg'
+import tekstil1 from './assets/tekstil1.jpg'
+import tekstil2 from './assets/tekstil2.jpg'
+import tekstil3 from './assets/tekstil3.jpg'
+import tekstil4 from './assets/tekstil4.jpg'
 
 function Textile() {
     return (
@@ -45,23 +49,54 @@ function Textile() {
             </div>
 
             <div className = "productImageFlexboxContainer">
-                <div className = "textileImageContainer">
-                    <img src = {yastik1} className = "productImage" alt = "an image of a pillow"/>
-                    <img src = {yastik2} className = "productImage" alt = "an image of a pillow"/>
-                    <img src = {yastik3} className = "productImage" alt = "an image of a pillow"/>
+                <div className = "textileContainer">
+                    <div className = "lineBefore2"></div>
+                    <div className = "textileTitle">
+                        Restoran
+                    </div>
+                    <div className = "lineAfter2"></div>
                 </div>
 
-                <div className = "textileImageContainer">
-                    <img src = {yastik4} className = "productImage" alt = "an image of a pillow"/>
-                    <img src = {yastik5} className = "productImage" alt = "an image of a pillow"/>
-                    <img src = {yastik6} className = "productImage" alt = "an image of a pillow"/>
+                <div className = "textileImages">
+                    <div className = "textileImageContainer">
+                        <img src = {tekstil1} className = "productImage" alt = "an image of a textile product"/>
+                        <img src = {tekstil4} className = "productImage" alt = "an image of a textile product"/>
+                        <img src = {tekstil2} className = "productImage" alt = "an image of a textile product"/>
+                    </div>
+
+                    <div className = "textileImageContainer">
+                        <img src = {tekstil3} className = "productImage" alt = "an image of a textile product"/>
+                    </div>
                 </div>
 
-                <div className = "textileImageContainer">
-                    <img src = {yastik7} className = "productImage" alt = "an image of a pillow"/>
-                    <img src = {yastik8} className = "productImage" alt = "an image of a pillow"/>
-                    <img src = {yastik9} className = "productImage" alt = "an image of a pillow"/>
+                <div className = "textileContainer">
+                    <div className = "lineBefore2"></div>
+                    <div className = "textileTitle">
+                        Ev ve Otel
+                    </div>
+                    <div className = "lineAfter2"></div>
                 </div>
+
+                <div className = "textileImages">
+                    <div className = "textileImageContainer">
+                        <img src = {yastik1} className = "productImage" alt = "an image of a pillow"/>
+                        <img src = {yastik3} className = "productImage" alt = "an image of a pillow"/>
+                        <img src = {yastik5} className = "productImage" alt = "an image of a pillow"/>
+                    </div>
+
+                    <div className = "textileImageContainer">
+                        <img src = {yastik7} className = "productImage" alt = "an image of a pillow"/>
+                        <img src = {yastik9} className = "productImage" alt = "an image of a pillow"/>
+                    </div>
+                </div>  
+
+                <div className = "textileContainer">
+                    <div className = "lineBefore2"></div>
+                    <div className = "textileTitle">
+                        Anadoludan
+                    </div>
+                    <div className = "lineAfter2"></div>
+                </div>              
             </div>
         </div>
         </>

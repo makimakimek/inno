@@ -37,9 +37,11 @@ function Ceramic() {
             </div>
 
             <div className = "productImageFlexboxContainer">
-                <div className = "ceramicImageContainer">
-                    <img src = {kupa1} className = "productImage" alt = "an image of a mug"/>
-                    <img src = {kupa2} className = "productImage" alt = "an image of a mug"/>
+                <div className = "ceramicImages">
+                    <div className = "ceramicImageContainer">
+                        <img src = {kupa1} className = "productImage" alt = "an image of a mug"/>
+                        <img src = {kupa2} className = "productImage" alt = "an image of a mug"/>
+                    </div>
                 </div>
             </div>
 
