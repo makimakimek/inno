@@ -112,12 +112,14 @@
 .companyNameAndAlt {
   display: flex;
   flex-direction: column;
+  margin-bottom: 60px;
 }
 
 .slashes {
   font-size: 50px;
   display: flex;
   align-items: flex-end;
+  margin-bottom: 60px;
   /*border: 4px solid white;
   padding: 0px 25px;*/
 }
