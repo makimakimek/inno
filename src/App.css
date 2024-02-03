@@ -6,7 +6,7 @@
 .page {
   display: flex;
   flex-direction: column;
-  min-width: 100vw;
+  min-width: 99vw;
   min-height: 100vh;
 }
 
@@ -76,6 +76,19 @@
   display: block;
 }
 
+.underContactSection {
+  margin-top: 3vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5vh;
+}
+
+.emailTitleSection, .phoneNumberSection {
+  font-size: 20px;
+  color: #034566;
+}
+
 /*/////////////////about////////////////*/
 
 .imageContainer {
@@ -106,7 +119,7 @@
   margin-left: 5vw;
 }
 
-.aboutTitle, .productsAndServicesTitle {
+.aboutTitle, .productsAndServicesTitle, .howWeWorkTitle, .contactTitle {
   margin: 0 1vw;
   font-size: 30px;
   font-weight: 450;
@@ -120,7 +133,7 @@
   margin-right: 5vw;
 }
 
-.aboutParagraph, .productsAndServicesParagraph{
+.aboutParagraph, .productsAndServicesParagraph, .howWeWorkParagraph {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -141,7 +154,7 @@
   margin-top: 5vh;
 }
 
-.productsAndServicesParagraph {
+.contactInfo {
   margin-bottom: 5vh;
 }
 

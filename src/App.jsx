@@ -85,6 +85,47 @@ function App() {
           </div>
         </div>
       </div>
+
+      <div className = "howWeWork">
+        <div className = "innerContainer">
+          <div className = "lineBefore"></div>
+          <div className = "howWeWorkTitle">
+            Nasıl Çalışıyoruz
+          </div>
+          <div className = "lineAfter"></div>
+        </div>
+
+        <div className = "howWeWorkParagraph">
+          <div className = "innerParagraphContainer">
+            Müşterilerimizin gereksinimleri ve istekleri her çalışma adımımızın odağında yer alıyor. Proje yönetimindeki kapsamlı deneyimimiz, hızlı bir şekilde 
+            çözüm bulmamızı ve böylece sonuç elde etmemizi sağlıyor. Başlangıç olarak, siz müşterimizin istekleri var: Amacımız, müşterimizin isteğine uygun çözümü, 
+            mümkün olan en iyi şekilde gerçekleştirmektir. Bu nedenle bir sonraki adımımız tasarımlar sunmaktır. Yaptığımız tasarımlar, projenin daha da geliştirilmesi 
+            için sağlam bir temel oluşturuyor. Daha sonra alternatif çözümler sunuyoruz. Müşterilerimiz ile birlikte en iyi çözümü buluncaya kadar çalışıyoruz. Ürettiğimiz 
+            en iyi ürünü teknik ve ekonomik analiz edilmesi ile süreci devam ettiriyoruz. Son aşama olarak, uzman tedarikçilerimize, seri üretim yaptırıyor ve ürünleri 
+            müşterilerimize teslim ediyoruz.
+          </div>
+        </div>
+      </div>
+
+      <div className = "contactInfo">
+        <div className = "innerContainer">
+          <div className = "lineBefore"></div>
+          <div className = "contactTitle">
+            İletişim Bilgileri
+          </div>
+          <div className = "lineAfter"></div>
+        </div>
+
+        <div className = "underContactSection">
+                <div className = "emailTitleSection">
+                  Email Adresimiz: inno@innopromoo.com
+                </div>
+
+                <div className = "phoneNumberSection">
+                  Telefon Numaramız: 539 876 55 55
+                </div>
+            </div>
+      </div>
     </div>
     </>
   )
