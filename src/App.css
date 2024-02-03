@@ -38,10 +38,6 @@
   gap: 50px;
 }
 
-.link {
-  
-}
-
 .whiteLink {
   color: white;
   text-decoration: none;
@@ -97,6 +93,44 @@
   margin-bottom: 2vh;
 }
 
+.logoContainer {
+  min-width: 99vw;
+  min-height: 400px;
+  background-color: #00008B;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5vh;
+}
+
+.textSection {
+  display: flex;
+  gap: 40px;
+}
+
+.companyNameAndAlt {
+  display: flex;
+  flex-direction: column;
+}
+
+.slashes {
+  font-size: 50px;
+  display: flex;
+  align-items: flex-end;
+  border: 4px solid white;
+  padding: 0px 25px;
+}
+
+.companyName {
+  font-size: 80px;
+}
+
+.altName {
+  font-size: 50px;
+  font-weight: 300;
+}
+
 .container1Image {
   display: flex;
   align-items: center;
@@ -123,7 +157,7 @@
   margin: 0 1vw;
   font-size: 30px;
   font-weight: 450;
-  color: #034566;
+  color: #00008B;
 }
 
 .lineAfter {

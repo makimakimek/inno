@@ -31,8 +31,22 @@ function App() {
           </div>
         </div>
 
-        <div className = "imageContainer">
-          <img src = {placeholder2} className = "container1Image" alt = "a placeholder image for now"/>
+        <div className = "logoContainer">
+          <div className = "textSection">
+            <div className = "slashes">
+              //
+            </div>
+
+            <div className = "companyNameAndAlt">
+              <div className = "companyName">
+                inno
+              </div>
+
+              <div className = "altName">
+                Promosyon ve Organizasyon
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       
