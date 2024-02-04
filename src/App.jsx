@@ -137,7 +137,7 @@ function App() {
                 </div>
 
                 <div className = "phoneNumberSection">
-                  Telefon Numaramız: 539 876 55 55
+                  Telefon Numaramız:
                 </div>
             </div>
       </div>

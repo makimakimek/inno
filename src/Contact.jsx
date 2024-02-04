@@ -41,43 +41,43 @@ function Contact() {
                         <div className = "link"><a href = "contact" className = "whiteLink">İletişim</a></div>
                     </div>
                 </div>
+
+                <div className = "logoContainer">
+                    <div className = "textSection">
+                        <div className = "slashes">
+                            //
+                        </div>
+
+                        <div className = "companyNameAndAlt">
+                            <div className = "companyName">
+                                inno
+                            </div>
+
+                            <div className = "altName">
+                                Promosyon ve Organizasyon
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div className = "pageTitle">
-                İletişim
+            <div className = "contactPageTitle">
+                İletişim Bilgileri
             </div>
 
-            <form className = "contactForm" onSubmit = {handleSubmit}>
-                <div className = "contactContainer">
-                    <label>Adınız:
-                        <input type = "text" name = "firstname" value = {inputs.firstname || ""} onChange={handleChange} />
-                    </label>
-      
-                    <label>Soyadınız:
-                        <input type = "text" name = "lastname" value={inputs.lastname || ""} onChange={handleChange} />
-                    </label>
-                </div>
-
-                <div className = "contactContainer">
-                    <label>E-Posta:
-                        <input type = "text" name = "email" value = {inputs.email || ""} onChange={handleChange} />
-                    </label>
-      
-                    <label>Telefon:
-                        <input type = "number" name = "phone" value={inputs.phone || ""} onChange={handleChange} />
-                    </label>
-                </div>
-
-                <div className = "contactContainerMessage">
-                    <label>Mesajınız:
-                        <input type = "text" className = "messageContainer" name = "message" value = {inputs.message || ""} onChange = {handleChange} />
-                    </label>
-                </div>
+            <div className = "contactParagraph">
                 
+            </div>
+            
+            <div className = "underContactSection">
+                <div className = "emailTitleSection">
+                    Email Adresimiz: inno@innopromoo.com
+                </div>
 
-                <input type="submit" className = "submitButton" value = "Gönder"/>
-            </form>
-
+                <div className = "phoneNumberSection">
+                    Telefon Numaramız:
+                </div>
+            </div>
         </div>
         </>
       )

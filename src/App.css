@@ -219,6 +219,13 @@
   margin-bottom: 4vh;
 }
 
+.contactPageTitle {
+  font-size: 40px;
+  color: #00008B;
+  text-align: center;
+  font-weight: 450;
+}
+
 .textileImages, .ceramicImages, .printingPressImages, .glassImages, .woodImages {
   display: flex;
   flex-direction: column;
