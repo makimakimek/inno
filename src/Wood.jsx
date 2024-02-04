@@ -31,7 +31,7 @@ function Wood() {
                                 <Link to = "/textile">Tekstil</Link>
                                 <Link to = "/glass">Cam</Link>
                                 <Link to = "/ceramic">Seramik</Link>
-                                <Link to = "/wood">Tahta</Link>
+                                <Link to = "/wood">Ahşap</Link>
                             </div>
                         </div>
             
@@ -41,7 +41,7 @@ function Wood() {
             </div>
 
             <div className = "pageTitle">
-                Tahta Ürünlerimiz
+                Ahşap Ürünlerimiz
             </div>
 
             <div className = "productImageFlexboxContainer">

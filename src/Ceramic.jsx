@@ -24,7 +24,7 @@ function Ceramic() {
                                 <Link to = "/textile">Tekstil</Link>
                                 <Link to = "/glass">Cam</Link>
                                 <Link to = "/ceramic">Seramik</Link>
-                                <Link to = "/wood">Tahta</Link>
+                                <Link to = "/wood">Ahşap</Link>
                             </div>
                         </div>
             

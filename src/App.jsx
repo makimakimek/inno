@@ -24,7 +24,7 @@ function App() {
                 <Link to = "textile">Tekstil</Link>
                 <Link to = "glass">Cam</Link>
                 <Link to = "ceramic">Seramik</Link>
-                <Link to = "wood">Tahta</Link>
+                <Link to = "wood">Ahşap</Link>
               </div>
             </div>
             
@@ -66,7 +66,7 @@ function App() {
           </div>
 
           <div className = "innerParagraphContainer">
-            Tasarlayan ile kullanan arasında köprü görevi anlayışımızlaö ürün geliştirme sürecini, hem yurtdışı, hem de yurtiçi, çözüm ortaklarımızla koordine ederek, 
+            Tasarlayan ile kullanan arasında köprü görevi anlayışımızla ürün geliştirme sürecini, hem yurtdışı, hem de yurtiçi, çözüm ortaklarımızla koordine ederek, 
             müşterilerimize, en iyi promosyon ve pazarlama hizmeti sunuyoruz. 
           </div>
 
