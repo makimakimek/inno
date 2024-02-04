@@ -19,15 +19,15 @@ function Products() {
                         <div className = "dropdown">
                             <div className = "products"><a href = "/" className = "whiteLink">Ürünlerimiz</a></div>
                             <div className = "dropdownContent">
-                                <Link to = "PrintingPress">Matbaa</Link>
-                                <Link to = "textile">Tekstil</Link>
-                                <Link to = "glass">Cam</Link>
-                                <Link to = "ceramic">Seramik</Link>
-                                <Link to = "wood">Tahta</Link>
+                                <Link to = "/PrintingPress">Matbaa</Link>
+                                <Link to = "/textile">Tekstil</Link>
+                                <Link to = "/glass">Cam</Link>
+                                <Link to = "/ceramic">Seramik</Link>
+                                <Link to = "/wood">Tahta</Link>
                             </div>
                         </div>
             
-                        <div className = "link"><Link to = "contact" className = "whiteLink">İletişim</Link></div>
+                        <div className = "link"><Link to = "/contact" className = "whiteLink">İletişim</Link></div>
                     </div>
                 </div>
             </div>
