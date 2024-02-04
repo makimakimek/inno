@@ -28,7 +28,7 @@ function App() {
               </div>
             </div>
             
-            <div className = "link"><a href = "contact" className = "whiteLink"><Link to = "contact">İletişim</Link></a></div>
+            <div className = "link"><Link to = "contact" className = "whiteLink">İletişim</Link></div>
           </div>
         </div>
 
