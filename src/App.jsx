@@ -133,7 +133,7 @@ function App() {
 
         <div className = "underContactSection">
                 <div className = "emailTitleSection">
-                  Email Adresimiz: inno@innopromoo.com
+                  Email Adresimiz: info@innopromoo.com
                 </div>
 
                 <div className = "phoneNumberSection">
