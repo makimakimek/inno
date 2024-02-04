@@ -15,6 +15,8 @@ import tekstil1 from './assets/tekstil1.jpg'
 import tekstil2 from './assets/tekstil2.jpg'
 import tekstil3 from './assets/tekstil3.jpg'
 import tekstil4 from './assets/tekstil4.jpg'
+import tekstil5 from './assets/tekstil5.jpg'
+import tekstil6 from './assets/tekstil6.jpg'
 
 function Textile() {
     return (
@@ -67,6 +69,8 @@ function Textile() {
 
                     <div className = "textileImageContainer">
                         <img src = {tekstil3} className = "productImage" alt = "an image of a textile product"/>
+                        <img src = {tekstil5} className = "productImage" alt = "an image of a textile product"/>
+                        <img src = {tekstil6} className = "productImage" alt = "an image of a textile product"/>
                     </div>
                 </div>
 

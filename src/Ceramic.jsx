@@ -3,6 +3,7 @@ import './App.css'
 import { Link } from "react-router-dom";
 import kupa1 from './assets/kupa1.JPG'
 import kupa2 from './assets/kupa2.JPG'
+import seramik3 from './assets/seramik3.jpg'
 
 function Ceramic() {
     return (
@@ -42,6 +43,7 @@ function Ceramic() {
                     <div className = "ceramicImageContainer">
                         <img src = {kupa1} className = "productImage" alt = "an image of a mug"/>
                         <img src = {kupa2} className = "productImage" alt = "an image of a mug"/>
+                        <img src = {seramik3} className = "productImage" alt = "an image of a mug"/>
                     </div>
                 </div>
             </div>
