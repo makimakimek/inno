@@ -1,12 +1,17 @@
 import { useState } from 'react'
 import './App.css'
 import { Link } from "react-router-dom";
-import cam1 from './assets/cam1.png'
-import cam2 from './assets/cam2.png'
-import cam3 from './assets/cam3.jpg'
-import cam4 from './assets/cam4.jpg'
+import tahta1 from './assets/tahta1.jpg'
+import tahta2 from './assets/tahta2.jpg'
+import tahta3 from './assets/tahta3.jpg'
+import tahta4 from './assets/tahta4.jpg'
+import tahta5 from './assets/tahta5.jpg'
+import tahta6 from './assets/tahta6.jpg'
+import tahta7 from './assets/tahta7.jpg'
+import tahta8 from './assets/tahta8.jpg'
 
-function Glass() {
+
+function Wood() {
     return (
         <>
         <div className = "page">
@@ -36,19 +41,26 @@ function Glass() {
             </div>
 
             <div className = "pageTitle">
-                Cam Ürünlerimiz
+                Tahta Ürünlerimiz
             </div>
 
             <div className = "productImageFlexboxContainer">
-                <div className = "glassImages">
-                    <div className = "glassImageContainer">
-                        <img src = {cam1} className = "productImage" alt = "an image of a glass"/>
-                        <img src = {cam2} className = "productImage" alt = "an image of a glass"/>
-                        <img src = {cam3} className = "productImage" alt = "an image of a glass"/>
+                <div className = "woodImages">
+                    <div className = "woodImageContainer">
+                        <img src = {tahta1} className = "productImage" alt = "an image of a wood product"/>
+                        <img src = {tahta2} className = "productImage" alt = "an image of a wood product"/>
+                        <img src = {tahta3} className = "productImage" alt = "an image of a wood product"/>
                     </div>
 
-                    <div className = "glassImageContainer">
-                        <img src = {cam4} className = "productImage" alt = "an image of a glass"/>
+                    <div className = "woodImageContainer">
+                        <img src = {tahta4} className = "productImage" alt = "an image of a wood product"/>
+                        <img src = {tahta5} className = "productImage" alt = "an image of a wood product"/>
+                        <img src = {tahta6} className = "productImage" alt = "an image of a wood product"/>
+                    </div>
+
+                    <div className = "woodImageContainer">
+                        <img src = {tahta7} className = "productImage" alt = "an image of a wood product"/>
+                        <img src = {tahta8} className = "productImage" alt = "an image of a wood product"/>
                     </div>
                 </div>
             </div>
@@ -57,4 +69,4 @@ function Glass() {
       )
 }
 
-export default Glass
+export default Wood

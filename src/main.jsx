@@ -9,6 +9,7 @@ import Textile from './Textile'
 import PrintingPress from './PrintingPress'
 import Glass from './Glass'
 import Ceramic from './Ceramic'
+import Wood from './Wood'
 
 const router = createBrowserRouter([
   {
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
   {
     path: "ceramic",
     element: <Ceramic />,
+  },
+  {
+    path: "wood",
+    element: <Wood />,
   },
 ]);
 

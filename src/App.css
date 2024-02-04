@@ -215,11 +215,11 @@
   font-weight: 450;
   color: #00008B;
   text-align: center;
-  margin-top: 4vh;
+  margin-top: 8vh;
   margin-bottom: 4vh;
 }
 
-.textileImages, .ceramicImages, .printingPressImages {
+.textileImages, .ceramicImages, .printingPressImages, .glassImages, .woodImages {
   display: flex;
   flex-direction: column;
   gap: 100px;
@@ -229,7 +229,7 @@
   margin-bottom: 10vh;
 }
 
-.textileImages > div, .ceramicImages > div, .printingPressImages > div {
+.textileImages > div, .ceramicImages > div, .printingPressImages > div, .glassImages > div, .woodImages > div {
   display: flex;
   gap: 100px;
 }
@@ -244,7 +244,7 @@
 }
 
 .productImageFlexboxContainer {
-  margin-bottom: 50vh;
+  margin-bottom: 5vh;
 }
 
 /*//////////////////////////////////contact section//////////////////////////////////*/

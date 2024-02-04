@@ -26,6 +26,7 @@ function PrintingPress() {
                                 <a href = "textile">Tekstil</a>
                                 <a href = "glass">Cam</a>
                                 <a href = "ceramic">Seramik</a>
+                                <a href = "wood">Tahta</a>
                             </div>
                         </div>
             
