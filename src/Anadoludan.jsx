@@ -1,17 +1,23 @@
 import { useState } from 'react'
 import './App.css'
 import { Link } from "react-router-dom";
+import placeholder from './assets/placeholder.jpg'
+import yastik1 from './assets/yastik1.jpg'
+import yastik2 from './assets/yastik2.jpg'
+import yastik3 from './assets/yastik3.jpg'
+import yastik4 from './assets/yastik4.jpg'
+import yastik5 from './assets/yastik5.jpg'
+import yastik6 from './assets/yastik6.jpg'
+import yastik7 from './assets/yastik7.jpg'
+import yastik8 from './assets/yastik8.jpg'
+import yastik9 from './assets/yastik9.jpg'
+import cam1 from './assets/cam1.png'
+import cam2 from './assets/cam2.png'
 import tahta1 from './assets/tahta1.jpg'
-import tahta2 from './assets/tahta2.jpg'
-import tahta3 from './assets/tahta3.jpg'
-import tahta4 from './assets/tahta4.jpg'
-import tahta5 from './assets/tahta5.jpg'
 import tahta6 from './assets/tahta6.jpg'
 import tahta7 from './assets/tahta7.jpg'
-import tahta8 from './assets/tahta8.jpg'
 
-
-function Wood() {
+function Anadoludan() {
     return (
         <>
         <div className = "page">
@@ -39,32 +45,37 @@ function Wood() {
             </div>
 
             <div className = "pageTitle">
-                Ahşap Ürünlerimiz
+                Anadoludan Ürünlerimiz
             </div>
 
             <div className = "productImageFlexboxContainer">
-                <div className = "woodImages">
-                    <div className = "woodImageContainer">
+                <div className = "textileImages">
+                    <div className = "textileImageContainer">
                         <img src = {tahta1} className = "productImage" alt = "an image of a wood product"/>
-                        <img src = {tahta2} className = "productImage" alt = "an image of a wood product"/>
-                        <img src = {tahta3} className = "productImage" alt = "an image of a wood product"/>
+                        <img src = {cam1} className = "productImage" alt = "an image of a glass"/>
+                        <img src = {yastik1} className = "productImage" alt = "an image of a pillow"/>  
                     </div>
 
-                    <div className = "woodImageContainer">
-                        <img src = {tahta4} className = "productImage" alt = "an image of a wood product"/>
-                        <img src = {tahta5} className = "productImage" alt = "an image of a wood product"/>
+                    <div className = "textileImageContainer">
+                        <img src = {yastik3} className = "productImage" alt = "an image of a pillow"/>
                         <img src = {tahta6} className = "productImage" alt = "an image of a wood product"/>
+                        <img src = {cam2} className = "productImage" alt = "an image of a glass"/>
                     </div>
 
-                    <div className = "woodImageContainer">
+                    <div className = "textileImageContainer">
                         <img src = {tahta7} className = "productImage" alt = "an image of a wood product"/>
-                        <img src = {tahta8} className = "productImage" alt = "an image of a wood product"/>
+                        <img src = {yastik5} className = "productImage" alt = "an image of a pillow"/>
+                        <img src = {yastik7} className = "productImage" alt = "an image of a pillow"/>
                     </div>
-                </div>
+
+                    <div className = "textileImageContainer">
+                        <img src = {yastik9} className = "productImage" alt = "an image of a pillow"/>
+                    </div>
+                </div>              
             </div>
         </div>
         </>
       )
 }
 
-export default Wood
+export default Anadoludan

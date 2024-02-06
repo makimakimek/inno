@@ -10,6 +10,8 @@ import PrintingPress from './PrintingPress'
 import Glass from './Glass'
 import Ceramic from './Ceramic'
 import Wood from './Wood'
+import Promotion from './Promotion'
+import Anadoludan from './Anadoludan'
 
 const router = createBrowserRouter([
   {
@@ -43,6 +45,14 @@ const router = createBrowserRouter([
   {
     path: "wood",
     element: <Wood />,
+  },
+  {
+    path: "promotion",
+    element: <Promotion />,
+  },
+  {
+    path: "anadoludan",
+    element: <Anadoludan />,
   },
 ]);
 

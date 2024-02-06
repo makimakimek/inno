@@ -21,11 +21,9 @@ function Ceramic() {
                         <div className = "dropdown">
                             <div className = "products"><a href = "/" className = "whiteLink">Ürünlerimiz</a></div>
                             <div className = "dropdownContent">
-                                <Link to = "/PrintingPress">Matbaa</Link>
+                                <Link to = "/promotion">Promosyon</Link>
                                 <Link to = "/textile">Tekstil</Link>
-                                <Link to = "/glass">Cam</Link>
-                                <Link to = "/ceramic">Seramik</Link>
-                                <Link to = "/wood">Ahşap</Link>
+                                <Link to = "/anadoludan">Anadoludan</Link>
                             </div>
                         </div>
             
