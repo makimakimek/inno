@@ -25,7 +25,7 @@ function Textile() {
             <div className = "container1">
                 <div className = "navigationContainer">
                     <div className = "navigationLeft">
-                        <div>inno</div>
+                        <div>innopromoo</div>
                     </div>
 
                     <div className = "navigationRight">

@@ -16,6 +16,15 @@ import cam2 from './assets/cam2.png'
 import tahta1 from './assets/tahta1.jpg'
 import tahta6 from './assets/tahta6.jpg'
 import tahta7 from './assets/tahta7.jpg'
+import anadoludan1 from './assets/anadoludan1.jpg'
+import anadoludan2 from './assets/anadoludan2.jpg'
+import anadoludan3 from './assets/anadoludan3.jpg'
+import anadoludan4 from './assets/anadoludan4.jpg'
+import anadoludan5 from './assets/anadoludan5.jpg'
+import anadoludan6 from './assets/anadoludan6.jpg'
+import anadoludan7 from './assets/anadoludan7.jpg'
+import anadoludan8 from './assets/anadoludan8.jpg'
+import anadoludan9 from './assets/anadoludan9.PNG'
 
 function Anadoludan() {
     return (
@@ -24,7 +33,7 @@ function Anadoludan() {
             <div className = "container1">
                 <div className = "navigationContainer">
                     <div className = "navigationLeft">
-                        <div>inno</div>
+                        <div>innopromoo</div>
                     </div>
 
                     <div className = "navigationRight">
@@ -52,20 +61,38 @@ function Anadoludan() {
                 <div className = "textileImages">
                     <div className = "textileImageContainer">
                         <img src = {tahta1} className = "productImage" alt = "an image of a wood product"/>
+                        <img src = {anadoludan1} className = "productImage" alt = "a ceramic image"/>  
                         <img src = {cam1} className = "productImage" alt = "an image of a glass"/>
-                        <img src = {yastik1} className = "productImage" alt = "an image of a pillow"/>  
                     </div>
 
                     <div className = "textileImageContainer">
+                        <img src = {anadoludan5} className = "productImage" alt = "a ceramic image"/>
                         <img src = {yastik3} className = "productImage" alt = "an image of a pillow"/>
-                        <img src = {tahta6} className = "productImage" alt = "an image of a wood product"/>
-                        <img src = {cam2} className = "productImage" alt = "an image of a glass"/>
+                        <img src = {anadoludan3} className = "productImage" alt = "a ceramic image"/>
                     </div>
 
                     <div className = "textileImageContainer">
                         <img src = {tahta7} className = "productImage" alt = "an image of a wood product"/>
-                        <img src = {yastik5} className = "productImage" alt = "an image of a pillow"/>
+                        <img src = {anadoludan7} className = "productImage" alt = "a ceramic image"/>
                         <img src = {yastik7} className = "productImage" alt = "an image of a pillow"/>
+                    </div>
+
+                    <div className = "textileImageContainer">
+                        <img src = {anadoludan9} className = "productImage" alt = "a ceramic image"/>
+                        <img src = {cam2} className = "productImage" alt = "an image of a glass"/>
+                        <img src = {anadoludan4} className = "productImage" alt = "a ceramic image"/>
+                    </div>
+
+                    <div className = "textileImageContainer">
+                        <img src = {tahta6} className = "productImage" alt = "an image of a wood product"/>
+                        <img src = {anadoludan2} className = "productImage" alt = "a ceramic image"/>
+                        <img src = {yastik1} className = "productImage" alt = "an image of a pillow"/>
+                    </div>
+
+                    <div className = "textileImageContainer">
+                        <img src = {anadoludan6} className = "productImage" alt = "a ceramic image"/>
+                        <img src = {yastik5} className = "productImage" alt = "an image of a pillow"/>
+                        <img src = {anadoludan8} className = "productImage" alt = "a ceramic image"/>
                     </div>
 
                     <div className = "textileImageContainer">
