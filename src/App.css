@@ -195,12 +195,16 @@
   gap: 25px;
 }
 
-.innerParagraphContainer {
+.innerParagraphContainer, .innerParagraphContainer2 {
   font-size: 20px;
   color: #034566;
   width: 100%; 
   max-width: 65vw;
   word-wrap: break-word;
+}
+
+.innerParagraphContainer2 {
+  max-width: 60vw;
 }
 
 .innerContainer {

@@ -60,21 +60,24 @@ function App() {
 
         <div className = "aboutParagraph">
           <div className = "innerParagraphContainer">
-            Firma kurucuları Şebnem Keskin ve Ayşegül Özata uzun yıllar kurumsal firmalarda üst düzey yöneticilik yaptıktan sonra İnno Promosyon Organizasyonu kurdular. 
+            Bizler Şebnem Keskin ve Ayşegül Özata olarak uzun yıllar kurumsal firmalarda üst düzey yöneticilik yaptıktan sonra Innopromoo, Promosyon ve Organizasyon’u hayata geçirdik. 
           </div>
 
           <div className = "innerParagraphContainer">
-            Tasarlayan ile kullanan arasında köprü görevi anlayışımızla ürün geliştirme sürecini, hem yurtdışı, hem de yurtiçi, çözüm ortaklarımızla koordine ederek, 
-            müşterilerimize, en iyi promosyon ve pazarlama hizmeti sunuyoruz. 
+            Tasarlayan ile kullanan arasında köprü görevi anlayışımızla ürün geliştirme sürecini, hem
+            yurtdışı, hem de yurtiçi, çözüm ortaklarımızla koordine ederek, müşterilerimize, en iyi
+            promosyon ve pazarlama hizmeti sunuyoruz.
           </div>
 
           <div className = "innerParagraphContainer">
-            Ülkemizin birçok bölgesinde özel üretilen tekstil, ahşap, cam ve seramikten yapılan otantik 
-            ürünlerin, yurt dışına tanıtımı, marka değerinin artırılması, pazarlanması ve ihracatı konusunda uzman kadromuz ile hizmet üretiyoruz. 
+            Ülkemizin birçok bölgesinde özel üretilen tekstil, ahşap, cam ve seramikten yapılan otantik
+            ürünlerin, yurt dışına tanıtımı, marka değerinin artırılması, pazarlanması ve ihracatı
+            konusunda uzman kadromuz ile hizmet üretiyoruz.
           </div>
 
           <div className = "innerParagraphContainer">
-            Ayrıca, müşterilerimizin özel ihtiyacı olan farklı promosyon ürünlerini analiz ederek, rekabetçi fiyatla ve optimum sürede temin ediyoruz.
+            Ayrıca, müşterilerimizin özel ihtiyacı olan farklı promosyon ürünlerini analiz ederek,
+            rekabetçi fiyatla ve optimum sürede temin ediyoruz.
           </div>
         </div>
       </div>
@@ -110,12 +113,31 @@ function App() {
 
         <div className = "howWeWorkParagraph">
           <div className = "innerParagraphContainer">
-            Müşterilerimizin gereksinimleri ve istekleri her çalışma adımımızın odağında yer alıyor. Proje yönetimindeki kapsamlı deneyimimiz, hızlı bir şekilde 
-            çözüm bulmamızı ve böylece sonuç elde etmemizi sağlıyor. Başlangıç olarak, siz müşterimizin istekleri var: Amacımız, müşterimizin isteğine uygun çözümü, 
-            mümkün olan en iyi şekilde gerçekleştirmektir. Bu nedenle bir sonraki adımımız tasarımlar sunmaktır. Yaptığımız tasarımlar, projenin daha da geliştirilmesi 
-            için sağlam bir temel oluşturuyor. Daha sonra alternatif çözümler sunuyoruz. Müşterilerimiz ile birlikte en iyi çözümü buluncaya kadar çalışıyoruz. Ürettiğimiz 
-            en iyi ürünü teknik ve ekonomik analiz edilmesi ile süreci devam ettiriyoruz. Son aşama olarak, uzman tedarikçilerimize, seri üretim yaptırıyor ve ürünleri 
-            müşterilerimize teslim ediyoruz.
+            Müşteri odaklı yaklaşımımız ve proje yönetimindeki kapsamlı deneyimimiz ile iş
+            ortaklarımıza hızlı ve etkin çözümler sunuyoruz. Çalışma yöntemimizi şekilde özetleyebiliriz:
+          </div>
+
+          <div className = "innerParagraphContainer2">
+            - Müşteri ile etkin iletişim kurarak kendilerinin talep ve beklentileri anlaşılır,
+          </div>
+
+          <div className = "innerParagraphContainer2">
+            - Beklentiler doğrultusunda firma kültürü ve hitap ettiği müşteri kesimi analiz edilerek
+            stratejik ortaklarımız ile ön numuneler hazırlanır,
+          </div>
+
+          <div className = "innerParagraphContainer2">
+            - Müşteri ile devam eden görüşmeler sonucu fiyat, kalite, tasarım ve teslim tarihinde
+            mutabık kalınır,
+          </div>
+
+          <div className = "innerParagraphContainer2">
+            - Uzman tedarikçi portföyümüzce seri üretim sürecine geçilir,
+          </div>
+
+          <div className = "innerParagraphContainer2">
+            - Kaliteden ödün vermeyerek ve terminlere uygun bir şekilde son ürünler
+            müşterilerimize teslim edilir.
           </div>
         </div>
       </div>
