@@ -47,6 +47,14 @@ function Promotion() {
                 Promosyon Ürünlerimiz
             </div>
 
+            <div className = "promotionParagraph">
+                <div className = "innerParagraphContainer">
+                    Promosyon ürünlerinin müşteri beklentilerine uygun şekilde temini, tasarımı ve
+                    sunumu ile ilgili tüm süreçleri firmamızca gerçekleştirmekteyiz. Ürün yelpazemizde
+                    matbaa ve kırtasiye ürünleri, seramik, cam ve ahşap ürünleri yer alıyor.
+                </div>
+            </div>
+
             <div className = "productImageFlexboxContainer">
                 <div className = "promotionImages">
                     <div className = "promotionImageContainer">

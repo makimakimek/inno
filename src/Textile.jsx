@@ -49,6 +49,14 @@ function Textile() {
                 Tekstil Ürünlerimiz
             </div>
 
+            <div className = "textileParagraph">
+                <div className = "innerParagraphContainer">
+                    Otel ve restoranların tekstil ürünlerinin temini, projelendirmesi ve firma kalite
+                    beklentilerine uygun şekilde üretilmesi sağlamaktayız. Ürün yelpazemizde perde,
+                    nevresim takımları, peçete, masa örtüleri ve yastıklar ön planda yer almaktadır.
+                </div>
+            </div>
+
             <div className = "productImageFlexboxContainer">
                 <div className = "textileImages">
                     <div className = "textileImageContainer">

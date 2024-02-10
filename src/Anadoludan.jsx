@@ -57,6 +57,15 @@ function Anadoludan() {
                 Anadoludan Ürünlerimiz
             </div>
 
+            <div className = "anadoludanParagraph">
+                <div className = "innerParagraphContainer">
+                    Ülkemizin çeşitli yörelerinden temin ettiğimiz zanaatkarlar tarafından özel olarak
+                    üretilen ürünlerin satışını yapmaktayız. Bunlar içerisinde yerel tezgahlarda el
+                    dokuması kumaşlardan (örn: Gaziantep bölgesinden Kutnu Kumaşı) üretilen tasarım
+                    tekstil ürünleri, el işi seramik, ahşap ve cam ürünler bulunmaktadır.
+                </div>
+            </div>
+
             <div className = "productImageFlexboxContainer">
                 <div className = "textileImages">
                     <div className = "textileImageContainer">

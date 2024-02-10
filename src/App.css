@@ -186,7 +186,7 @@
   margin-right: 10vw;
 }
 
-.aboutParagraph, .productsAndServicesParagraph, .howWeWorkParagraph {
+.aboutParagraph, .productsAndServicesParagraph, .howWeWorkParagraph, .promotionParagraph, .textileParagraph, .anadoludanParagraph {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -207,6 +207,10 @@
   max-width: 60vw;
 }
 
+.promotionParagraph, .textileParagraph, .anadoludanParagraph {
+  text-align: center;
+}
+
 .innerContainer {
   margin-top: 5vh;
 }
@@ -223,7 +227,6 @@
   color: #00008B;
   text-align: center;
   margin-top: 8vh;
-  margin-bottom: 4vh;
 }
 
 .contactPageTitle {
