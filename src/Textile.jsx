@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import './App.css'
 import { Link } from "react-router-dom";
-import placeholder from './assets/placeholder.jpg'
 import yastik1 from './assets/yastik1.jpg'
 import yastik2 from './assets/yastik2.jpg'
 import yastik3 from './assets/yastik3.jpg'
@@ -17,6 +16,11 @@ import tekstil3 from './assets/tekstil3.jpg'
 import tekstil4 from './assets/tekstil4.jpg'
 import tekstil5 from './assets/tekstil5.jpg'
 import tekstil6 from './assets/tekstil6.jpg'
+import tekstil7 from './assets/tekstil7.jpg'
+import tekstil8 from './assets/tekstil8.jpg'
+import tekstil9 from './assets/tekstil9.jpg'
+import tekstil10 from './assets/tekstil10.jpg'
+
 
 function Textile() {
     return (
@@ -67,7 +71,17 @@ function Textile() {
 
                     <div className = "textileImageContainer">
                         <img src = {tekstil6} className = "productImage" alt = "an image of a textile product"/>
+                        <img src = {tekstil7} className = "productImage" alt = "an image of a textile product"/>
+                        <img src = {tekstil8} className = "productImage" alt = "an image of a textile product"/>
+                    </div>
+
+                    <div className = "textileImageContainer">
+                        <img src = {tekstil9} className = "productImage" alt = "an image of a textile product"/>
+                        <img src = {tekstil10} className = "productImage" alt = "an image of a textile product"/>
                         <img src = {tekstil3} className = "productImage" alt = "an image of a textile product"/>
+                    </div>
+
+                    <div className = "textileImageContainer">
                         <img src = {tekstil2} className = "productImage" alt = "an image of a textile product"/>
                     </div>
                 </div>         
