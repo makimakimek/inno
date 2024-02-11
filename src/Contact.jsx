@@ -70,7 +70,7 @@ function Contact() {
             <div className = "container1">
                 <div className = "navigationContainer">
                     <div className = "navigationLeft">
-                        <div>inno</div>
+                        <div>innopromoo</div>
                     </div>
 
                     <div className = "navigationRight">
@@ -176,7 +176,7 @@ function Contact() {
                         </label>
                     </div>
                     
-                    <button className = "submitButton" type="submit">Submit</button>
+                    <button className = "submitButton" type="submit">Gönder</button>
                 </form>
             </div>
         </>
