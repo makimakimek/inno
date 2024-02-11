@@ -12,6 +12,7 @@ function App() {
         <div className = "navigationContainer">
           <div className = "navigationLeft">
             <div>innopromoo</div>
+            <div className = "emailInNavigation">info@innopromoo.com</div>
           </div>
 
           <div className = "navigationRight">
@@ -38,11 +39,11 @@ function App() {
 
             <div className = "companyNameAndAlt">
               <div className = "companyName">
-                inno
+                innopromoo
               </div>
 
               <div className = "altName">
-                Promosyon ve Organizasyon
+                promosyon ve organizasyon
               </div>
             </div>
           </div>

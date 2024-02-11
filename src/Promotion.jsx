@@ -58,39 +58,46 @@ function Promotion() {
             <div className = "productImageFlexboxContainer">
                 <div className = "promotionImages">
                     <div className = "promotionImageContainer">
-                        <img src = {tahta4} className = "productImage" alt = "an image of a wood product"/>
-                        <img src = {seramik3} className = "productImage" alt = "an image of a mug"/>
-                        <img src = {tahta8} className = "productImage" alt = "an image of a wood product"/>                        
+                        <img src = {defter1} className = "productImage" alt = "an image of a notebook"/>
+                        <img src = {defter2} className = "productImage" alt = "an image of a notebook"/>
+                        <img src = {kalem1} className = "productImage" alt = "an image of a pen"/>
+                        
+                                            
                     </div>
                 </div>
 
                 <div className = "promotionImages">
                     <div className = "promotionImageContainer">
                         <img src = {kupa1} className = "productImage" alt = "an image of a mug"/>
-                        <img src = {tahta3} className = "productImage" alt = "an image of a wood product"/>
-                        <img src = {defter1} className = "productImage" alt = "an image of a notebook"/>
-                    </div>
-                </div>
-
-                <div className = "promotionImages">
-                    <div className = "promotionImageContainer">
-                        <img src = {tahta2} className = "productImage" alt = "an image of a wood product"/>
-                        <img src = {cam3} className = "productImage" alt = "an image of a glass"/>
                         <img src = {kupa2} className = "productImage" alt = "an image of a mug"/>
+                        <img src = {seramik3} className = "productImage" alt = "an image of a mug"/>
+                        
                     </div>
                 </div>
 
                 <div className = "promotionImages">
                     <div className = "promotionImageContainer">
+                        <img src = {tahta4} className = "productImage" alt = "an image of a wood product"/>
+                        
+                        <img src = {cam3} className = "productImage" alt = "an image of a glass"/>
                         <img src = {cam4} className = "productImage" alt = "an image of a glass"/>
-                        <img src = {tahta5} className = "productImage" alt = "an image of a wood product"/>
-                        <img src = {defter2} className = "productImage" alt = "an image of a notebook"/>
+                        
+                        
                     </div>
                 </div>
 
                 <div className = "promotionImages">
                     <div className = "promotionImageContainer">
-                        <img src = {kalem1} className = "productImage" alt = "an image of a pen"/>
+                        <img src = {tahta3} className = "productImage" alt = "an image of a wood product"/>
+                        <img src = {tahta5} className = "productImage" alt = "an image of a wood product"/>
+                        <img src = {tahta2} className = "productImage" alt = "an image of a wood product"/>
+                          
+                    </div>
+                </div>
+
+                <div className = "promotionImages">
+                    <div className = "promotionImageContainer">
+                    <img src = {tahta8} className = "productImage" alt = "an image of a wood product"/> 
                     </div>
                 </div>
             </div>

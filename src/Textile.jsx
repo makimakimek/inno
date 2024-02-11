@@ -66,23 +66,26 @@ function Textile() {
                     <div className = "textileImageContainer">
                         <img src = {tekstil1} className = "productImage" alt = "an image of a textile product"/>
                         <img src = {tekstil4} className = "productImage" alt = "an image of a textile product"/>
-                        <img src = {tekstil5} className = "productImage" alt = "an image of a textile product"/>
+                        <img src = {tekstil2} className = "productImage" alt = "an image of a textile product"/>
+                        
                     </div>
 
                     <div className = "textileImageContainer">
+                        <img src = {tekstil3} className = "productImage" alt = "an image of a textile product"/>
+                        <img src = {tekstil5} className = "productImage" alt = "an image of a textile product"/>
                         <img src = {tekstil6} className = "productImage" alt = "an image of a textile product"/>
-                        <img src = {tekstil7} className = "productImage" alt = "an image of a textile product"/>
-                        <img src = {tekstil8} className = "productImage" alt = "an image of a textile product"/>
+                        
+                        
                     </div>
 
                     <div className = "textileImageContainer">
                         <img src = {tekstil9} className = "productImage" alt = "an image of a textile product"/>
                         <img src = {tekstil10} className = "productImage" alt = "an image of a textile product"/>
-                        <img src = {tekstil3} className = "productImage" alt = "an image of a textile product"/>
+                        <img src = {tekstil7} className = "productImage" alt = "an image of a textile product"/>
                     </div>
 
                     <div className = "textileImageContainer">
-                        <img src = {tekstil2} className = "productImage" alt = "an image of a textile product"/>
+                        <img src = {tekstil8} className = "productImage" alt = "an image of a textile product"/>
                     </div>
                 </div>         
             </div>

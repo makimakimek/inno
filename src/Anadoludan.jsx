@@ -69,43 +69,51 @@ function Anadoludan() {
             <div className = "productImageFlexboxContainer">
                 <div className = "textileImages">
                     <div className = "textileImageContainer">
-                        <img src = {tahta1} className = "productImage" alt = "an image of a wood product"/>
-                        <img src = {anadoludan1} className = "productImage" alt = "a ceramic image"/>  
-                        <img src = {cam1} className = "productImage" alt = "an image of a glass"/>
-                    </div>
-
-                    <div className = "textileImageContainer">
-                        <img src = {anadoludan5} className = "productImage" alt = "a ceramic image"/>
                         <img src = {yastik3} className = "productImage" alt = "an image of a pillow"/>
-                        <img src = {anadoludan3} className = "productImage" alt = "a ceramic image"/>
+                        <img src = {yastik9} className = "productImage" alt = "an image of a pillow"/>
+                        <img src = {yastik1} className = "productImage" alt = "an image of a pillow"/>
+                        
+                        
+                        
                     </div>
 
                     <div className = "textileImageContainer">
-                        <img src = {tahta7} className = "productImage" alt = "an image of a wood product"/>
+                        <img src = {yastik5} className = "productImage" alt = "an image of a pillow"/>
+                        <img src = {cam1} className = "productImage" alt = "an image of a glass"/>
+                        <img src = {cam2} className = "productImage" alt = "an image of a glass"/>
+                        
+                        
+                    </div>
+
+                    <div className = "textileImageContainer">
+                        <img src = {anadoludan2} className = "productImage" alt = "a ceramic image"/>
                         <img src = {anadoludan7} className = "productImage" alt = "a ceramic image"/>
-                        <img src = {yastik7} className = "productImage" alt = "an image of a pillow"/>
+                        <img src = {anadoludan5} className = "productImage" alt = "a ceramic image"/>
                     </div>
 
                     <div className = "textileImageContainer">
                         <img src = {anadoludan9} className = "productImage" alt = "a ceramic image"/>
-                        <img src = {cam2} className = "productImage" alt = "an image of a glass"/>
+                        <img src = {anadoludan3} className = "productImage" alt = "a ceramic image"/>
                         <img src = {anadoludan4} className = "productImage" alt = "a ceramic image"/>
                     </div>
 
                     <div className = "textileImageContainer">
-                        <img src = {tahta6} className = "productImage" alt = "an image of a wood product"/>
-                        <img src = {anadoludan2} className = "productImage" alt = "a ceramic image"/>
-                        <img src = {yastik1} className = "productImage" alt = "an image of a pillow"/>
-                    </div>
-
-                    <div className = "textileImageContainer">
+                        
                         <img src = {anadoludan6} className = "productImage" alt = "a ceramic image"/>
-                        <img src = {yastik5} className = "productImage" alt = "an image of a pillow"/>
+                        <img src = {anadoludan1} className = "productImage" alt = "a ceramic image"/>  
                         <img src = {anadoludan8} className = "productImage" alt = "a ceramic image"/>
                     </div>
 
                     <div className = "textileImageContainer">
-                        <img src = {yastik9} className = "productImage" alt = "an image of a pillow"/>
+                        <img src = {tahta6} className = "productImage" alt = "an image of a wood product"/>
+                        <img src = {tahta7} className = "productImage" alt = "an image of a wood product"/>
+                        <img src = {tahta1} className = "productImage" alt = "an image of a wood product"/>
+                    </div>
+
+                   
+
+                    <div className = "textileImageContainer">
+                        
                     </div>
                 </div>              
             </div>
