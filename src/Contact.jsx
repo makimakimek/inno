@@ -3,6 +3,67 @@ import './App.css'
 import { Link } from "react-router-dom";
 
 function Contact() {
+    const [formData, setFormData] = useState({
+        companyName: '',
+        firstName: '',
+        lastName: '',
+        email: '',
+        phoneNumber: '',
+        subject: '',
+        message: '',
+    });
+
+    const handleChange = (e) => {
+        const { name, value } = e.target;
+        setFormData((prevData) => ({
+            ...prevData,
+            [name]: value,
+        }));
+    };
+
+    const handlePhoneInputChange = (e) => {
+        const input = e.target.value;
+    
+        const numericInput = input.replace(/\D/g, '');
+    
+        setFormData((prevData) => ({
+          ...prevData,
+          phoneNumber: numericInput,
+        }));
+    };
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+    
+        try {
+          const response = await fetch('https://formspree.io/f/xleqjqzj', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(formData),
+          });
+    
+          if (response.ok) {
+            console.log('Form submitted successfully!');
+
+            setFormData({
+                companyName: '',
+                firstName: '',
+                lastName: '',
+                email: '',
+                phoneNumber: '',
+                subject: '',
+                message: '',
+              });
+          } else {
+            console.error('Failed to submit form.');
+          }
+        } catch (error) {
+          console.error('Error:', error);
+        }
+    };
+
     return (
         <>
         <div className = "page">
@@ -27,44 +88,97 @@ function Contact() {
                         <div className = "link"><Link to = "/contact" className = "whiteLink">İletişim</Link></div>
                     </div>
                 </div>
-
-                <div className = "logoContainer">
-                    <div className = "textSection">
-                        <div className = "slashes">
-                            //
-                        </div>
-
-                        <div className = "companyNameAndAlt">
-                            <div className = "companyName">
-                                inno
-                            </div>
-
-                            <div className = "altName">
-                                Promosyon ve Organizasyon
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
 
             <div className = "contactPageTitle">
                 İletişim Bilgileri
             </div>
 
-            <div className = "contactParagraph">
-                
-            </div>
-            
-            <div className = "underContactSection">
-                <div className = "emailTitleSection">
-                    Email Adresimiz: info@innopromoo.com
-                </div>
 
-                <div className = "phoneNumberSection">
-                    Telefon Numaramız:
-                </div>
+                <form className = "contactForm" onSubmit = {handleSubmit}>
+                    <div className = "contactContainer">
+                        <label>
+                            Firma:
+                            <input
+                                className = "altFormContainer2"
+                                type="text"
+                                name="companyName"
+                                value={formData.companyName}
+                                onChange={handleChange}
+                            />
+                        </label>
+                    </div>
+
+                    <div className = "contactContainer">
+                        <label>
+                            Adınız:
+                            <input
+                                className = "altFormContainer"
+                                type="text"
+                                name="firstName"
+                                value={formData.firstName}
+                                onChange={handleChange}
+                            />
+                        </label>
+
+                        <label>
+                            Soyadınız:
+                            <input
+                                className = "altFormContainer"
+                                type="text"
+                                name="lastName"
+                                value={formData.lastName}
+                                onChange={handleChange}
+                            />
+                        </label>
+                    </div>
+                    
+                    <div className = "contactContainer">
+                        <label>
+                            E-posta:
+                            <input
+                                className = "altFormContainer"
+                                type="email"
+                                name="email"
+                                value={formData.email}
+                                onChange={handleChange}
+                            />
+                        </label>
+
+                        <label>
+                            Telefon:
+                            <input
+                                className = "altFormContainer"
+                                type="tel"
+                                name="phoneNumber"
+                                value={formData.phoneNumber}
+                                onInput={handlePhoneInputChange}
+                            />
+                        </label>
+                    </div>
+
+                    <div className = "contactContainer">
+                        <label>
+                            Konu:
+                            <input
+                                className = "altFormContainer2"
+                                type="text"
+                                name="subject"
+                                value={formData.subject}
+                                onChange={handleChange}
+                            />
+                        </label>
+                    </div>
+
+                    <div className = "contactContainerMessage">
+                        <label> Mesaj:
+                            <textarea className = "messageContainer" name="message" value={formData.message} onChange={handleChange}/>
+                        </label>
+                    </div>
+                    
+                    <button className = "submitButton" type="submit">Submit</button>
+                </form>
             </div>
-        </div>
         </>
       )
 }
