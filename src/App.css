@@ -629,6 +629,21 @@
     font-size: 4vh;
   }
 
+  .textileImages, .ceramicImages, .printingPressImages, .glassImages, .woodImages, .promotionImages {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6vh;
+    margin-bottom: 10vh;
+  }
+
+  .textileImages > div, .ceramicImages > div, .printingPressImages > div, .glassImages > div, .woodImages > div, .promotionImages > div {
+    display: flex;
+    gap: 3vh;
+  }
+
   .pageTitle, .contactPageTitle {
     font-size: 7vh;
   }
