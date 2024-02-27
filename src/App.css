@@ -82,19 +82,23 @@
 }
 
 .underContactSection, .underContactSection2 {
-  margin-top: 3vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 25px;
+}
+
+.underContactSection {
+  margin-top: 20px;
 }
 
 .emailTitleSection, .phoneNumberSection {
-  font-size: 20px;
+  font-size: 22px;
   color: #034566;
 }
 
 .email, .number {
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .underContactSection > div, .underContactSection2 > div {
@@ -288,6 +292,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 40px;
 }
 
 .contactForm > div {
@@ -489,14 +494,6 @@
     max-width: 80vw;
   }
 
-  .email {
-
-  }
-
-  .number {
-
-  }
-
   /*///////////////////////products page//////////////////////////*/
   .pageTitle, .contactPageTitle {
     font-size: 7vw;
@@ -575,5 +572,80 @@
     height: 8vh;
     border: 1px solid #00008B;
     font-size: 5vw;
+  }
+}
+
+/*horizontal phone screens*/
+@media screen and (max-width: 850px) and (orientation: landscape) {
+  .navigationLeft {
+    font-size: 4vh;
+  }
+
+  .emailInNavigation {
+    font-size: 2.5vh;
+  }
+
+  .navigationRight {
+    font-size: 3vh;
+  }
+
+  .dropdownContent {
+    font-size: 2.6vh;
+  }
+
+  .emailTitleSection, .phoneNumberSection {
+    font-size: 4vh;
+  }
+
+  .email, .number {
+    font-size: 3.8vh;
+  }
+
+  .slashes {
+    font-size: 8vh;
+  }
+
+  .companyName {
+    font-size: 8vh;
+  }
+
+  .altName {
+    font-size: 5vh;
+  }
+
+  .aboutTitle, .productsAndServicesTitle, .howWeWorkTitle, .contactTitle, .textileTitle {
+    font-size: 5.5vh;
+  }
+
+  .innerParagraphContainer, .innerParagraphContainer2 {
+    font-size: 4vh;
+  }
+
+  .pageTitle, .contactPageTitle {
+    font-size: 7vh;
+  }
+
+  .innerParagraphContainer3 {
+    font-size: 4vh;
+  }
+
+  .contactContainer label, .contactContainerMessage label {
+    font-size: 4vh;
+  }
+
+  .messageContainer {
+    font-size: 4vh;
+  }
+
+  .altFormContainer2 {
+    font-size: 4vh;
+  }
+
+  .altFormContainer {
+    font-size: 4vh;
+  }
+
+  .submitButton {
+    font-size: 5vh;
   }
 }
