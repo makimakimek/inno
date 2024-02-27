@@ -171,6 +171,10 @@ function App() {
                 <div className = "number">
                   +90 (532) 139 91 42
                 </div>
+
+                <div className = "number">
+                  +90 (530) 641 60 79
+                </div>
               </div>
           </div>
       </div>
