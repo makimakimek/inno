@@ -94,6 +94,27 @@ function Contact() {
                 İletişim Bilgileri
             </div>
 
+            <div className = "underContactSection2">
+              <div className = "emailContainer">
+                <div className = "emailTitleSection">
+                  Email Adresimiz:
+                </div>
+
+                <div className = "email">
+                  info@innopromoo.com
+                </div>
+              </div>
+
+              <div className = "phoneContainer">
+                <div className = "phoneNumberSection">
+                  Telefon Numaramız:
+                </div>
+
+                <div className = "number">
+                  +90 (532) 139 91 42
+                </div>
+              </div>
+          </div>
 
                 <form className = "contactForm" onSubmit = {handleSubmit}>
                     <div className = "contactContainer">

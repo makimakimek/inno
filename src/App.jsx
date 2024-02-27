@@ -153,14 +153,26 @@ function App() {
         </div>
 
         <div className = "underContactSection">
+              <div className = "emailContainer">
                 <div className = "emailTitleSection">
-                  Email Adresimiz: info@innopromoo.com
+                  Email Adresimiz:
                 </div>
 
+                <div className = "email">
+                  info@innopromoo.com
+                </div>
+              </div>
+
+              <div className = "phoneContainer">
                 <div className = "phoneNumberSection">
                   Telefon Numaramız:
                 </div>
-            </div>
+
+                <div className = "number">
+                  +90 (532) 139 91 42
+                </div>
+              </div>
+          </div>
       </div>
     </div>
     </>
