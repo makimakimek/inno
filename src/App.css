@@ -593,12 +593,20 @@
     font-size: 2.6vh;
   }
 
+  .dropdownContent a {
+    padding: 1vw 2vh;
+  }
+
   .emailTitleSection, .phoneNumberSection {
     font-size: 4vh;
   }
 
   .email, .number {
     font-size: 3.8vh;
+  }
+
+  .logoContainer {
+    min-height: 40vh;
   }
 
   .slashes {
@@ -635,17 +643,22 @@
 
   .messageContainer {
     font-size: 4vh;
+    min-height: 30vh;
   }
 
   .altFormContainer2 {
     font-size: 4vh;
+    min-height: 6vh;
   }
 
   .altFormContainer {
     font-size: 4vh;
+    min-height: 6vh;
   }
 
   .submitButton {
     font-size: 5vh;
+    height: 12vh;
+    width: 40vw;
   }
 }
