@@ -203,7 +203,7 @@
   gap: 25px;
 }
 
-.innerParagraphContainer, .innerParagraphContainer2 {
+.innerParagraphContainer, .innerParagraphContainer2, .innerParagraphContainer3 {
   font-size: 20px;
   color: #034566;
   width: 100%; 
@@ -342,4 +342,212 @@
   border-radius: 10px;
   border: none;
   font-size: 16px;
+}
+
+/*//phone screens//*/
+
+@media screen and (max-width: 850px) {
+  .page {
+    display: flex;
+    flex-direction: column;
+    min-width: 100vw;
+    min-height: 100vh;
+  }
+
+  .navigationContainer {
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+  }
+
+  .navigationLeft {
+    font-size: 4vw;
+    margin-left: 2vw;
+  }
+
+  .emailInNavigation {
+    font-size: 2.5vw;
+  }
+
+  .navigationRight {
+    font-size: 3vw;
+    margin-right: 5vw;
+    gap: 3vw;
+  }
+
+  .dropdownContent {
+    min-width: 7vw;
+    font-size: 2.6vw;
+  }
+
+  .dropdownContent a {
+    padding: 1vh 1vw;
+  }
+
+  .underContactSection {
+    margin-top: 2vh;
+    gap: 1.5vh;
+  }
+
+  .emailTitleSection, .phoneNumberSection {
+    font-size: 3.5vw;
+  }
+
+  /*////////////////////about/////////////////////*/
+
+  .logoContainer {
+    max-width: 100vw;
+    min-height: 20vh;
+    background-color: #00008B;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5vh;
+  }
+
+  .textSection {
+    display: flex;
+    gap: 5vw;
+  }
+
+  .companyNameAndAlt {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    margin-bottom: 7vh;
+    padding: 0vh 1.8vw;
+    padding-bottom: 1vh;
+    margin-bottom: 3vh;
+  }
+
+  .slashes {
+    display: flex;
+    align-items: flex-end;
+    border: 1px solid white;
+    font-size: 8vw;
+    margin-bottom: 3vh;
+    padding: 0vh 2vw;
+  }
+
+  .companyName {
+    font-size: 8vw;
+  }
+
+  .altName {
+    font-size: 5vw;
+  }
+
+  .aboutTitle, .productsAndServicesTitle, .howWeWorkTitle, .contactTitle, .textileTitle {
+    font-size: 5.5vw;
+  }
+
+  .lineBefore {
+    flex: 1 1;
+    height: 0.15vh;
+    background: #191970;
+    margin-left: 3vw;
+    margin-right: 3vw;
+  }
+
+  .lineAfter {
+    flex: 1 1;
+    height: 0.15vh;
+    background: #191970;
+    margin-right: 3vw;
+    margin-left: 3vw;
+  }
+
+  .aboutParagraph, .productsAndServicesParagraph, .howWeWorkParagraph, .promotionParagraph, .textileParagraph, .anadoludanParagraph {
+    gap: 3.5vh;
+    margin-top: 3vh;
+  }
+
+  .innerParagraphContainer, .innerParagraphContainer2 {
+    font-size: 4vw;
+    max-width: 85vw;
+  }
+
+  .innerParagraphContainer2 {
+    max-width: 80vw;
+  }
+
+  /*///////////////////////products page//////////////////////////*/
+  .pageTitle, .contactPageTitle {
+    font-size: 7vw;
+    margin-top: 3vh;
+  }
+
+  .textileImages, .ceramicImages, .printingPressImages, .glassImages, .woodImages, .promotionImages {
+    margin-top: 6vh;
+    margin-bottom: 0vh;
+  }
+
+  .textileImages > div, .ceramicImages > div, .printingPressImages > div, .glassImages > div, .woodImages > div, .promotionImages > div {
+    display: flex;
+    flex-direction: column;
+    gap: 6vh;
+  }
+
+  .productImage {
+    max-width: 85vw;
+  }
+
+  .innerParagraphContainer3 {
+    max-width: 90vw;
+    font-size: 4vw;
+  }
+
+  /*/////////////////contact section//////////////////*/
+  .contactForm {
+    justify-content: center;
+    margin-bottom: 3vh;
+  }
+
+  .contactForm > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3vh;
+  }
+
+  .contactContainer label, .contactContainerMessage label {
+    gap: 0.5vh;
+    font-size: 4vw;
+  }
+
+  .messageContainer {
+    min-width: 80vw;
+    min-height: 20vh;
+    font-size: 4vw;
+    margin-bottom: 4vh;
+  }
+
+  .altFormContainer2 {
+    min-width: 80vw;
+    min-height: 4vh;
+    background-color: rgb(237, 237, 237);
+    border-radius: 10px;
+    border: none;
+    font-size: 4vw;
+  }
+  
+  .altFormContainer {
+    min-width: 80vw;
+    min-height: 4vh;
+    background-color: rgb(237, 237, 237);
+    border-radius: 10px;
+    border: none;
+    font-size: 4vw;
+  }
+
+  .submitButton {
+    margin: 0.2em;
+    color: white;
+    background-color: #00008B;
+    border-radius: 30px;
+    width: 50vw;
+    height: 8vh;
+    border: 1px solid #00008B;
+    font-size: 5vw;
+  }
 }

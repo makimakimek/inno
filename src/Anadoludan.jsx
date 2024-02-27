@@ -58,7 +58,7 @@ function Anadoludan() {
             </div>
 
             <div className = "anadoludanParagraph">
-                <div className = "innerParagraphContainer">
+                <div className = "innerParagraphContainer3">
                     Ülkemizin çeşitli yörelerinden temin ettiğimiz zanaatkarlar tarafından özel olarak
                     üretilen ürünlerin satışını yapmaktayız. Bunlar içerisinde yerel tezgahlarda el
                     dokuması kumaşlardan (örn: Gaziantep bölgesinden Kutnu Kumaşı) üretilen tasarım
@@ -72,48 +72,46 @@ function Anadoludan() {
                         <img src = {yastik3} className = "productImage" alt = "an image of a pillow"/>
                         <img src = {yastik9} className = "productImage" alt = "an image of a pillow"/>
                         <img src = {yastik1} className = "productImage" alt = "an image of a pillow"/>
-                        
-                        
-                        
                     </div>
+                </div>
 
+                <div className = "textileImages">
                     <div className = "textileImageContainer">
                         <img src = {yastik5} className = "productImage" alt = "an image of a pillow"/>
                         <img src = {cam1} className = "productImage" alt = "an image of a glass"/>
                         <img src = {cam2} className = "productImage" alt = "an image of a glass"/>
-                        
-                        
                     </div>
+                </div>
 
+                <div className = "textileImages">
                     <div className = "textileImageContainer">
                         <img src = {anadoludan2} className = "productImage" alt = "a ceramic image"/>
                         <img src = {anadoludan7} className = "productImage" alt = "a ceramic image"/>
                         <img src = {anadoludan5} className = "productImage" alt = "a ceramic image"/>
                     </div>
+                </div>
 
+                <div className = "textileImages">
                     <div className = "textileImageContainer">
                         <img src = {anadoludan9} className = "productImage" alt = "a ceramic image"/>
                         <img src = {anadoludan3} className = "productImage" alt = "a ceramic image"/>
                         <img src = {anadoludan4} className = "productImage" alt = "a ceramic image"/>
                     </div>
+                </div>
 
+                <div className = "textileImages">
                     <div className = "textileImageContainer">
-                        
                         <img src = {anadoludan6} className = "productImage" alt = "a ceramic image"/>
                         <img src = {anadoludan1} className = "productImage" alt = "a ceramic image"/>  
                         <img src = {anadoludan8} className = "productImage" alt = "a ceramic image"/>
                     </div>
+                </div>
 
+                <div className = "textileImages">
                     <div className = "textileImageContainer">
                         <img src = {tahta6} className = "productImage" alt = "an image of a wood product"/>
                         <img src = {tahta7} className = "productImage" alt = "an image of a wood product"/>
                         <img src = {tahta1} className = "productImage" alt = "an image of a wood product"/>
-                    </div>
-
-                   
-
-                    <div className = "textileImageContainer">
-                        
                     </div>
                 </div>              
             </div>

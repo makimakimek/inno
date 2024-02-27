@@ -54,7 +54,7 @@ function Textile() {
             </div>
 
             <div className = "textileParagraph">
-                <div className = "innerParagraphContainer">
+                <div className = "innerParagraphContainer3">
                     Otel ve restoranların tekstil ürünlerinin temini, projelendirmesi ve firma kalite
                     beklentilerine uygun şekilde üretilmesi sağlamaktayız. Ürün yelpazemizde perde,
                     nevresim takımları, peçete, masa örtüleri ve yastıklar ön planda yer almaktadır.
@@ -67,23 +67,26 @@ function Textile() {
                         <img src = {tekstil1} className = "productImage" alt = "an image of a textile product"/>
                         <img src = {tekstil4} className = "productImage" alt = "an image of a textile product"/>
                         <img src = {tekstil2} className = "productImage" alt = "an image of a textile product"/>
-                        
                     </div>
+                </div>
 
+                <div className = "textileImages">
                     <div className = "textileImageContainer">
                         <img src = {tekstil3} className = "productImage" alt = "an image of a textile product"/>
                         <img src = {tekstil5} className = "productImage" alt = "an image of a textile product"/>
                         <img src = {tekstil6} className = "productImage" alt = "an image of a textile product"/>
-                        
-                        
                     </div>
+                </div>
 
+                <div className = "textileImages">
                     <div className = "textileImageContainer">
                         <img src = {tekstil9} className = "productImage" alt = "an image of a textile product"/>
                         <img src = {tekstil10} className = "productImage" alt = "an image of a textile product"/>
                         <img src = {tekstil7} className = "productImage" alt = "an image of a textile product"/>
                     </div>
-
+                </div>
+                
+                <div className = "textileImages">
                     <div className = "textileImageContainer">
                         <img src = {tekstil8} className = "productImage" alt = "an image of a textile product"/>
                     </div>
