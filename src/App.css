@@ -417,6 +417,10 @@ input:checked + label {
     padding: 1vh 2vw;
   }
 
+  .switch-label {
+    font-size: 3vw;
+  }
+
   .underContactSection {
     margin-top: 2vh;
     gap: 2vh;
@@ -606,6 +610,10 @@ input:checked + label {
   }
 
   .navigationRight {
+    font-size: 3vh;
+  }
+
+  .switch-label {
     font-size: 3vh;
   }
 

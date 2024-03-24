@@ -83,16 +83,16 @@ function Anadoludan() {
                         </div>
 
                         <div className = "languageOptions">
-                            <div class = "switch">
-                                <input id = "switch-t" name = "language" type = "radio" value = "turkish" className = "switch-input" checked = {selectedLanguage === 'turkish'} onChange = {handleOptionChange}/>
-                                <label for = "switch-t" className = "switch-label switch-label-t">TR</label>
+                            <div className = "switch">
+                                <input id = "switch-t" type = "radio" value = "turkish" className = "switch-input" checked = {selectedLanguage === 'turkish'} onChange = {handleOptionChange}/>
+                                <label htmlFor = "switch-t" className = "switch-label switch-label-t">TR</label>
 
                                 <div>|</div>
 
-                                <input id = "switch-e" name = "language" type = "radio" value = "english" className = "switch-input" checked = {selectedLanguage === 'english'} onChange = {handleOptionChange}/>
-                                <label for = "switch-e" className = "switch-label switch-label-e">EN</label>
+                                <input id = "switch-e" type = "radio" value = "english" className = "switch-input" checked = {selectedLanguage === 'english'} onChange = {handleOptionChange}/>
+                                <label htmlFor = "switch-e" className = "switch-label switch-label-e">EN</label>
 
-                                <div class = "switch-selector"></div>
+                                <div className = "switch-selector"></div>
                             </div>
                         </div>
                     </div>
