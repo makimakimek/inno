@@ -23,6 +23,12 @@ import tekstil10 from './assets/tekstil10.jpg'
 
 
 function Textile() {
+    const [selectedLanguage, setSelectedLanguage] = useState('turkish');
+
+    const handleOptionChange = (event) => {
+        setSelectedLanguage(event.target.value);
+    };
+
     return (
         <>
         <div className = "page">
@@ -33,31 +39,75 @@ function Textile() {
                     </div>
 
                     <div className = "navigationRight">
-                        <div className = "link"><a href = "/" className = "whiteLink">Anasayfa</a></div>
+                        <div className = "link">
+                            {selectedLanguage === 'turkish' && <a href = "/" className = "whiteLink">Anasayfa</a>}
+                            {selectedLanguage === 'english' && <a href = "/" className = "whiteLink">Home</a>}
+                        </div>
             
                         <div className = "dropdown">
-                            <div className = "products"><a href = "/" className = "whiteLink">Ürünlerimiz</a></div>
-                            <div className = "dropdownContent">
-                                <Link to = "/promotion">Promosyon</Link>
-                                <Link to = "/textile">Tekstil</Link>
-                                <Link to = "/anadoludan">Anadoludan</Link>
+                            <div className = "products">
+                                {selectedLanguage === 'turkish' && <a href = "/" className = "whiteLink">Ürünlerimiz</a>}
+                                {selectedLanguage === 'english' && <a href = "/" className = "whiteLink">Products</a>}
+                            </div>
+
+                            <div>
+                                {selectedLanguage === 'turkish' && 
+                                (<div className = "dropdownContent">
+                                    <Link to = "/promotion">Promosyon</Link>
+                                    <Link to = "/textile">Tekstil</Link>
+                                    <Link to = "/anadoludan">Anadoludan</Link>
+                                </div>
+                                )
+                                }
+                            </div>
+                            
+                            <div>
+                                {selectedLanguage === 'english' && 
+                                (<div className = "dropdownContent">
+                                    <Link to = "/promotion">Promotion</Link>
+                                    <Link to = "/textile">Textile</Link>
+                                    <Link to = "/anadoludan">Anatolian</Link>
+                                </div>
+                                )
+                                }
                             </div>
                         </div>
             
-                        <div className = "link"><Link to = "/contact" className = "whiteLink">İletişim</Link></div>
+                        <div className = "link">
+                            {selectedLanguage === 'turkish' && <Link to = "/contact" className = "whiteLink">İletişim</Link>}
+                            {selectedLanguage === 'english' && <Link to = "/contact" className = "whiteLink">Contact Us</Link>}
+                        </div>
+
+                        <div className = "languageOptions">
+                            <div class = "switch">
+                                <input id = "switch-t" name = "language" type = "radio" value = "turkish" className = "switch-input" checked = {selectedLanguage === 'turkish'} onChange = {handleOptionChange}/>
+                                <label for = "switch-t" className = "switch-label switch-label-t">TR</label>
+
+                                <div>|</div>
+
+                                <input id = "switch-e" name = "language" type = "radio" value = "english" className = "switch-input" checked = {selectedLanguage === 'english'} onChange = {handleOptionChange}/>
+                                <label for = "switch-e" className = "switch-label switch-label-e">EN</label>
+
+                                <div class = "switch-selector"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <div className = "pageTitle">
-                Tekstil Ürünlerimiz
+                {selectedLanguage === 'turkish' && <div>Tekstil Ürünlerimiz</div>}
+                {selectedLanguage === 'english' && <div>Textile Products</div>}
             </div>
 
             <div className = "textileParagraph">
                 <div className = "innerParagraphContainer3">
-                    Otel ve restoranların tekstil ürünlerinin temini, projelendirmesi ve firma kalite
+                    {selectedLanguage === 'turkish' && <div>Otel ve restoranların tekstil ürünlerinin temini, projelendirmesi ve firma kalite
                     beklentilerine uygun şekilde üretilmesi sağlamaktayız. Ürün yelpazemizde perde,
-                    nevresim takımları, peçete, masa örtüleri ve yastıklar ön planda yer almaktadır.
+                    nevresim takımları, peçete, masa örtüleri ve yastıklar ön planda yer almaktadır.</div>}
+                    {selectedLanguage === 'english' && <div>We ensure the acquisition, project planning, and production of textile products for 
+                    hotels and restaurants are in line with the company's quality expectations. Our product range mainly includes curtains, 
+                    bedding sets, napkins, tablecloths, and cushions.</div>}
                 </div>
             </div>
 

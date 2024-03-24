@@ -3,6 +3,12 @@ import './App.css'
 import { Link } from "react-router-dom";
 
 function Contact() {
+    const [selectedLanguage, setSelectedLanguage] = useState('turkish');
+
+    const handleOptionChange = (event) => {
+        setSelectedLanguage(event.target.value);
+    };
+
     const [formData, setFormData] = useState({
         companyName: '',
         firstName: '',
@@ -74,30 +80,72 @@ function Contact() {
                     </div>
 
                     <div className = "navigationRight">
-                        <div className = "link"><a href = "/" className = "whiteLink">Anasayfa</a></div>
+                        <div className = "link">
+                            {selectedLanguage === 'turkish' && <a href = "/" className = "whiteLink">Anasayfa</a>}
+                            {selectedLanguage === 'english' && <a href = "/" className = "whiteLink">Home</a>}
+                        </div>
             
                         <div className = "dropdown">
-                            <div className = "products"><a href = "/" className = "whiteLink">Ürünlerimiz</a></div>
-                            <div className = "dropdownContent">
-                                <Link to = "/promotion">Promosyon</Link>
-                                <Link to = "/textile">Tekstil</Link>
-                                <Link to = "/anadoludan">Anadoludan</Link>
+                            <div className = "products">
+                                {selectedLanguage === 'turkish' && <a href = "/" className = "whiteLink">Ürünlerimiz</a>}
+                                {selectedLanguage === 'english' && <a href = "/" className = "whiteLink">Products</a>}
+                            </div>
+
+                            <div>
+                                {selectedLanguage === 'turkish' && 
+                                (<div className = "dropdownContent">
+                                    <Link to = "/promotion">Promosyon</Link>
+                                    <Link to = "/textile">Tekstil</Link>
+                                    <Link to = "/anadoludan">Anadoludan</Link>
+                                </div>
+                                )
+                                }
+                            </div>
+                            
+                            <div>
+                                {selectedLanguage === 'english' && 
+                                (<div className = "dropdownContent">
+                                    <Link to = "/promotion">Promotion</Link>
+                                    <Link to = "/textile">Textile</Link>
+                                    <Link to = "/anadoludan">Anatolian</Link>
+                                </div>
+                                )
+                                }
                             </div>
                         </div>
             
-                        <div className = "link"><Link to = "/contact" className = "whiteLink">İletişim</Link></div>
+                        <div className = "link">
+                            {selectedLanguage === 'turkish' && <Link to = "/contact" className = "whiteLink">İletişim</Link>}
+                            {selectedLanguage === 'english' && <Link to = "/contact" className = "whiteLink">Contact Us</Link>}
+                        </div>
+
+                        <div className = "languageOptions">
+                            <div class = "switch">
+                                <input id = "switch-t" name = "language" type = "radio" value = "turkish" className = "switch-input" checked = {selectedLanguage === 'turkish'} onChange = {handleOptionChange}/>
+                                <label for = "switch-t" className = "switch-label switch-label-t">TR</label>
+
+                                <div>|</div>
+
+                                <input id = "switch-e" name = "language" type = "radio" value = "english" className = "switch-input" checked = {selectedLanguage === 'english'} onChange = {handleOptionChange}/>
+                                <label for = "switch-e" className = "switch-label switch-label-e">EN</label>
+
+                                <div class = "switch-selector"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <div className = "contactPageTitle">
-                İletişim Bilgileri
+                {selectedLanguage === 'turkish' && <div>İletişim Bilgileri</div>}
+                {selectedLanguage === 'english' && <div>Contact Information</div>}
             </div>
 
             <div className = "underContactSection2">
               <div className = "emailContainer">
                 <div className = "emailTitleSection">
-                  Email Adresimiz:
+                  {selectedLanguage === 'turkish' && <div>Email Adresimiz:</div>}
+                  {selectedLanguage === 'english' && <div>Our Email Address:</div>}
                 </div>
 
                 <div className = "email">
@@ -107,7 +155,8 @@ function Contact() {
 
               <div className = "phoneContainer">
                 <div className = "phoneNumberSection">
-                  Telefon Numaramız:
+                    {selectedLanguage === 'turkish' && <div>Telefon Numaramız:</div>}
+                    {selectedLanguage === 'english' && <div>Our Phone Number:</div>}                  
                 </div>
 
                 <div className = "number">
@@ -123,7 +172,8 @@ function Contact() {
                 <form className = "contactForm" onSubmit = {handleSubmit}>
                     <div className = "contactContainer">
                         <label>
-                            Firma:
+                            {selectedLanguage === 'turkish' && <div>Firma:</div>}
+                            {selectedLanguage === 'english' && <div>Company:</div>}
                             <input
                                 className = "altFormContainer2"
                                 type="text"
@@ -136,7 +186,8 @@ function Contact() {
 
                     <div className = "contactContainer">
                         <label>
-                            Adınız:
+                            {selectedLanguage === 'turkish' && <div>Adınız:</div>}
+                            {selectedLanguage === 'english' && <div>First Name:</div>}
                             <input
                                 className = "altFormContainer"
                                 type="text"
@@ -147,7 +198,8 @@ function Contact() {
                         </label>
 
                         <label>
-                            Soyadınız:
+                            {selectedLanguage === 'turkish' && <div>Soyadınız:</div>}
+                            {selectedLanguage === 'english' && <div>Last Name:</div>}
                             <input
                                 className = "altFormContainer"
                                 type="text"
@@ -160,7 +212,8 @@ function Contact() {
                     
                     <div className = "contactContainer">
                         <label>
-                            E-posta:
+                            {selectedLanguage === 'turkish' && <div>E-posta:</div>}
+                            {selectedLanguage === 'english' && <div>Email Address:</div>}
                             <input
                                 className = "altFormContainer"
                                 type="email"
@@ -171,7 +224,8 @@ function Contact() {
                         </label>
 
                         <label>
-                            Telefon:
+                            {selectedLanguage === 'turkish' && <div>Telefon:</div>}
+                            {selectedLanguage === 'english' && <div>Phone Number:</div>}
                             <input
                                 className = "altFormContainer"
                                 type="tel"
@@ -184,7 +238,8 @@ function Contact() {
 
                     <div className = "contactContainer">
                         <label>
-                            Konu:
+                            {selectedLanguage === 'turkish' && <div>Konu:</div>}
+                            {selectedLanguage === 'english' && <div>Subject:</div>}
                             <input
                                 className = "altFormContainer2"
                                 type="text"
@@ -196,12 +251,16 @@ function Contact() {
                     </div>
 
                     <div className = "contactContainerMessage">
-                        <label> Mesaj:
+                        <label> {selectedLanguage === 'turkish' && <div>Mesaj:</div>}
+                                {selectedLanguage === 'english' && <div>Message:</div>}
                             <textarea className = "messageContainer" name="message" value={formData.message} onChange={handleChange}/>
                         </label>
                     </div>
                     
-                    <button className = "submitButton" type="submit">Gönder</button>
+                    <button className = "submitButton" type="submit">
+                        {selectedLanguage === 'turkish' && <div>Gönder</div>}
+                        {selectedLanguage === 'english' && <div>Submit</div>}
+                    </button>
                 </form>
             </div>
         </>

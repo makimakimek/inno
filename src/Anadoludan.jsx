@@ -27,6 +27,12 @@ import anadoludan8 from './assets/anadoludan8.jpg'
 import anadoludan9 from './assets/anadoludan9.PNG'
 
 function Anadoludan() {
+    const [selectedLanguage, setSelectedLanguage] = useState('turkish');
+
+    const handleOptionChange = (event) => {
+        setSelectedLanguage(event.target.value);
+    };
+
     return (
         <>
         <div className = "page">
@@ -37,32 +43,76 @@ function Anadoludan() {
                     </div>
 
                     <div className = "navigationRight">
-                        <div className = "link"><a href = "/" className = "whiteLink">Anasayfa</a></div>
+                        <div className = "link">
+                            {selectedLanguage === 'turkish' && <a href = "/" className = "whiteLink">Anasayfa</a>}
+                            {selectedLanguage === 'english' && <a href = "/" className = "whiteLink">Home</a>}
+                        </div>
             
                         <div className = "dropdown">
-                            <div className = "products"><a href = "/" className = "whiteLink">Ürünlerimiz</a></div>
-                            <div className = "dropdownContent">
-                                <Link to = "/promotion">Promosyon</Link>
-                                <Link to = "/textile">Tekstil</Link>
-                                <Link to = "/anadoludan">Anadoludan</Link>
+                            <div className = "products">
+                                {selectedLanguage === 'turkish' && <a href = "/" className = "whiteLink">Ürünlerimiz</a>}
+                                {selectedLanguage === 'english' && <a href = "/" className = "whiteLink">Products</a>}
+                            </div>
+
+                            <div>
+                                {selectedLanguage === 'turkish' && 
+                                (<div className = "dropdownContent">
+                                    <Link to = "/promotion">Promosyon</Link>
+                                    <Link to = "/textile">Tekstil</Link>
+                                    <Link to = "/anadoludan">Anadoludan</Link>
+                                </div>
+                                )
+                                }
+                            </div>
+                            
+                            <div>
+                                {selectedLanguage === 'english' && 
+                                (<div className = "dropdownContent">
+                                    <Link to = "/promotion">Promotion</Link>
+                                    <Link to = "/textile">Textile</Link>
+                                    <Link to = "/anadoludan">Anatolian</Link>
+                                </div>
+                                )
+                                }
                             </div>
                         </div>
             
-                        <div className = "link"><Link to = "/contact" className = "whiteLink">İletişim</Link></div>
+                        <div className = "link">
+                            {selectedLanguage === 'turkish' && <Link to = "/contact" className = "whiteLink">İletişim</Link>}
+                            {selectedLanguage === 'english' && <Link to = "/contact" className = "whiteLink">Contact Us</Link>}
+                        </div>
+
+                        <div className = "languageOptions">
+                            <div class = "switch">
+                                <input id = "switch-t" name = "language" type = "radio" value = "turkish" className = "switch-input" checked = {selectedLanguage === 'turkish'} onChange = {handleOptionChange}/>
+                                <label for = "switch-t" className = "switch-label switch-label-t">TR</label>
+
+                                <div>|</div>
+
+                                <input id = "switch-e" name = "language" type = "radio" value = "english" className = "switch-input" checked = {selectedLanguage === 'english'} onChange = {handleOptionChange}/>
+                                <label for = "switch-e" className = "switch-label switch-label-e">EN</label>
+
+                                <div class = "switch-selector"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <div className = "pageTitle">
-                Anadoludan Ürünlerimiz
+                {selectedLanguage === 'turkish' && <div>Anadoludan Ürünlerimiz</div>}
+                {selectedLanguage === 'english' && <div>Anatolian Products</div>}
             </div>
 
             <div className = "anadoludanParagraph">
                 <div className = "innerParagraphContainer3">
-                    Ülkemizin çeşitli yörelerinden temin ettiğimiz zanaatkarlar tarafından özel olarak
+                    {selectedLanguage === 'turkish' && <div>Ülkemizin çeşitli yörelerinden temin ettiğimiz zanaatkarlar tarafından özel olarak
                     üretilen ürünlerin satışını yapmaktayız. Bunlar içerisinde yerel tezgahlarda el
                     dokuması kumaşlardan (örn: Gaziantep bölgesinden Kutnu Kumaşı) üretilen tasarım
-                    tekstil ürünleri, el işi seramik, ahşap ve cam ürünler bulunmaktadır.
+                    tekstil ürünleri, el işi seramik, ahşap ve cam ürünler bulunmaktadır.</div>}
+                    {selectedLanguage === 'english' && <div>We sell products specially crafted by artisans sourced from various regions of our 
+                    country. These include handmade textile products made from locally woven fabrics (e.g., Kutnu Fabric from the Gaziantep region), 
+                    handcrafted ceramics, wood, and glass products.</div>}
                 </div>
             </div>
 

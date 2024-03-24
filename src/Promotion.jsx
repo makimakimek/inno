@@ -17,6 +17,12 @@ import tahta5 from './assets/tahta5.jpg'
 import tahta8 from './assets/tahta8.jpg'
 
 function Promotion() {
+    const [selectedLanguage, setSelectedLanguage] = useState('turkish');
+
+    const handleOptionChange = (event) => {
+        setSelectedLanguage(event.target.value);
+    };
+
     return (
         <>
         <div className = "page">
@@ -27,31 +33,76 @@ function Promotion() {
                     </div>
 
                     <div className = "navigationRight">
-                        <div className = "link"><a href = "/" className = "whiteLink">Anasayfa</a></div>
+                        <div className = "link">
+                            {selectedLanguage === 'turkish' && <a href = "/" className = "whiteLink">Anasayfa</a>}
+                            {selectedLanguage === 'english' && <a href = "/" className = "whiteLink">Home</a>}
+                        </div>
             
                         <div className = "dropdown">
-                            <div className = "products"><a href = "/" className = "whiteLink">Ürünlerimiz</a></div>
-                            <div className = "dropdownContent">
-                                <Link to = "/promotion">Promosyon</Link>
-                                <Link to = "/textile">Tekstil</Link>
-                                <Link to = "/anadoludan">Anadoludan</Link>
+                            <div className = "products">
+                                {selectedLanguage === 'turkish' && <a href = "/" className = "whiteLink">Ürünlerimiz</a>}
+                                {selectedLanguage === 'english' && <a href = "/" className = "whiteLink">Products</a>}
+                            </div>
+
+                            <div>
+                                {selectedLanguage === 'turkish' && 
+                                (<div className = "dropdownContent">
+                                    <Link to = "/promotion">Promosyon</Link>
+                                    <Link to = "/textile">Tekstil</Link>
+                                    <Link to = "/anadoludan">Anadoludan</Link>
+                                </div>
+                                )
+                                }
+                            </div>
+                            
+                            <div>
+                                {selectedLanguage === 'english' && 
+                                (<div className = "dropdownContent">
+                                    <Link to = "/promotion">Promotion</Link>
+                                    <Link to = "/textile">Textile</Link>
+                                    <Link to = "/anadoludan">Anatolian</Link>
+                                </div>
+                                )
+                                }
                             </div>
                         </div>
             
-                        <div className = "link"><Link to = "/contact" className = "whiteLink">İletişim</Link></div>
+                        <div className = "link">
+                            {selectedLanguage === 'turkish' && <Link to = "/contact" className = "whiteLink">İletişim</Link>}
+                            {selectedLanguage === 'english' && <Link to = "/contact" className = "whiteLink">Contact Us</Link>}
+                        </div>
+
+                        <div className = "languageOptions">
+                            <div class = "switch">
+                                <input id = "switch-t" name = "language" type = "radio" value = "turkish" className = "switch-input" checked = {selectedLanguage === 'turkish'} onChange = {handleOptionChange}/>
+                                <label for = "switch-t" className = "switch-label switch-label-t">TR</label>
+
+                                <div>|</div>
+
+                                <input id = "switch-e" name = "language" type = "radio" value = "english" className = "switch-input" checked = {selectedLanguage === 'english'} onChange = {handleOptionChange}/>
+                                <label for = "switch-e" className = "switch-label switch-label-e">EN</label>
+
+                                <div class = "switch-selector"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <div className = "pageTitle">
-                Promosyon Ürünlerimiz
+                {selectedLanguage === 'turkish' && <div>Promosyon Ürünlerimiz</div>}
+                {selectedLanguage === 'english' && <div>Promotional Products</div>}
             </div>
 
             <div className = "promotionParagraph">
                 <div className = "innerParagraphContainer3">
-                    Promosyon ürünlerinin müşteri beklentilerine uygun şekilde temini, tasarımı ve
+                    {selectedLanguage === 'turkish' && <div>Promosyon ürünlerinin müşteri beklentilerine uygun şekilde temini, tasarımı ve
                     sunumu ile ilgili tüm süreçleri firmamızca gerçekleştirmekteyiz. Ürün yelpazemizde
-                    matbaa ve kırtasiye ürünleri, seramik, cam ve ahşap ürünleri yer alıyor.
+                    matbaa ve kırtasiye ürünleri, seramik, cam ve ahşap ürünleri yer alıyor.</div>}
+                    {selectedLanguage === 'english' && <div>We handle all processes related to the acquisition, design, and presentation of 
+                        promotional products in line with customer expectations. Our product range includes printing and stationery items, ceramics, 
+                        glass, and wood products.We handle all processes related to the acquisition, design, and presentation of promotional products in 
+                        line with customer expectations. Our product range includes printing and stationery items, ceramics, glass, and wood products.</div>}
                 </div>
             </div>
 

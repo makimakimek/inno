@@ -107,6 +107,26 @@
   align-items: center;
 }
 
+.switch {
+  display: flex;
+  gap: 3px;
+}
+
+.switch-label {
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.switch-input {
+  display: none;
+}
+
+input:checked + label {
+  color: lightskyblue;
+}
+
 /*/////////////////about////////////////*/
 
 .imageContainer {
