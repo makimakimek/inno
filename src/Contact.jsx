@@ -149,8 +149,7 @@ function Contact() {
                 </div>
 
                 <div className = "email">
-                    {selectedLanguage === 'turkish' && <div>info@innopromoo.com</div>}
-                    {selectedLanguage === 'english' && <div>info@innopromoo.com</div>}
+                  info@innopromoo.com
                 </div>
               </div>
 
@@ -161,13 +160,11 @@ function Contact() {
                 </div>
 
                 <div className = "number">
-                    {selectedLanguage === 'turkish' && <div>+90 (532) 139 91 42</div>}
-                    {selectedLanguage === 'english' && <div>+90 (532) 139 91 42</div>}
+                  +90 (532) 139 91 42
                 </div>
 
                 <div className = "number">
-                    {selectedLanguage === 'turkish' && <div>+90 (530) 641 60 79</div>}
-                    {selectedLanguage === 'english' && <div>+90 (530) 641 60 79</div>}
+                  +90 (530) 641 60 79
                 </div>
               </div>
           </div>

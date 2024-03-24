@@ -99,6 +99,7 @@
 
 .email, .number {
   font-size: 20px;
+  color: black;
 }
 
 .underContactSection > div, .underContactSection2 > div {
