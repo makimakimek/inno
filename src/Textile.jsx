@@ -1,15 +1,6 @@
 import { useState } from 'react'
 import './App.css'
 import { Link } from "react-router-dom";
-import yastik1 from './assets/yastik1.jpg'
-import yastik2 from './assets/yastik2.jpg'
-import yastik3 from './assets/yastik3.jpg'
-import yastik4 from './assets/yastik4.jpg'
-import yastik5 from './assets/yastik5.jpg'
-import yastik6 from './assets/yastik6.jpg'
-import yastik7 from './assets/yastik7.jpg'
-import yastik8 from './assets/yastik8.jpg'
-import yastik9 from './assets/yastik9.jpg'
 import tekstil1 from './assets/tekstil1.jpg'
 import tekstil2 from './assets/tekstil2.jpg'
 import tekstil3 from './assets/tekstil3.jpg'
@@ -106,7 +97,7 @@ function Textile() {
                     beklentilerine uygun şekilde üretilmesi sağlamaktayız. Ürün yelpazemizde perde,
                     nevresim takımları, peçete, masa örtüleri ve yastıklar ön planda yer almaktadır.</div>}
                     {selectedLanguage === 'english' && <div>We ensure the acquisition, project planning, and production of textile products for 
-                    hotels and restaurants are in line with the company's quality expectations. Our product range mainly includes curtains, 
+                    hotels and restaurants are in line with the company&apos;s quality expectations. Our product range mainly includes curtains, 
                     bedding sets, napkins, tablecloths, and cushions.</div>}
                 </div>
             </div>

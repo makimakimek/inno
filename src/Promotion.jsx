@@ -1,20 +1,18 @@
 import { useState } from 'react'
 import './App.css'
 import { Link } from "react-router-dom";
-import placeholder from './assets/placeholder.jpg'
 import kalem1 from './assets/kalem1.JPG'
 import defter1 from './assets/defter1.JPG'
 import defter2 from './assets/defter2.jpg'
 import kupa1 from './assets/kupa1.JPG'
 import kupa2 from './assets/kupa2.JPG'
 import seramik3 from './assets/seramik3.jpg'
-import cam3 from './assets/cam3.jpg'
-import cam4 from './assets/cam4.jpg'
-import tahta2 from './assets/tahta2.jpg'
-import tahta3 from './assets/tahta3.jpg'
-import tahta4 from './assets/tahta4.jpg'
-import tahta5 from './assets/tahta5.jpg'
-import tahta8 from './assets/tahta8.jpg'
+import cam1 from './assets/cam1.png';
+import cam2 from './assets/cam2.png';
+import cam3 from './assets/cam3.jpg';
+import tahta1 from './assets/tahta1.jpg';
+import tahta2 from './assets/tahta2.jpg';
+import tahta3 from './assets/tahta3.jpg';
 
 function Promotion() {
     const [selectedLanguage, setSelectedLanguage] = useState('turkish');
@@ -128,27 +126,18 @@ function Promotion() {
 
                 <div className = "promotionImages">
                     <div className = "promotionImageContainer">
-                        <img src = {tahta4} className = "productImage" alt = "an image of a wood product"/>
-                        
+                        <img src = {cam1} className = "productImage" alt = "an image of a glass"/>
+                        <img src = {cam2} className = "productImage" alt = "an image of a glass"/>
                         <img src = {cam3} className = "productImage" alt = "an image of a glass"/>
-                        <img src = {cam4} className = "productImage" alt = "an image of a glass"/>
-                        
-                        
                     </div>
                 </div>
 
                 <div className = "promotionImages">
                     <div className = "promotionImageContainer">
-                        <img src = {tahta3} className = "productImage" alt = "an image of a wood product"/>
-                        <img src = {tahta5} className = "productImage" alt = "an image of a wood product"/>
+                        <img src = {tahta1} className = "productImage" alt = "an image of a wood product"/>
                         <img src = {tahta2} className = "productImage" alt = "an image of a wood product"/>
+                        <img src = {tahta3} className = "productImage" alt = "an image of a wood product"/>
                           
-                    </div>
-                </div>
-
-                <div className = "promotionImages">
-                    <div className = "promotionImageContainer">
-                    <img src = {tahta8} className = "productImage" alt = "an image of a wood product"/> 
                     </div>
                 </div>
             </div>

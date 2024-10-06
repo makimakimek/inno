@@ -1,30 +1,33 @@
 import { useState } from 'react'
 import './App.css'
 import { Link } from "react-router-dom";
-import placeholder from './assets/placeholder.jpg'
-import yastik1 from './assets/yastik1.jpg'
-import yastik2 from './assets/yastik2.jpg'
-import yastik3 from './assets/yastik3.jpg'
-import yastik4 from './assets/yastik4.jpg'
-import yastik5 from './assets/yastik5.jpg'
-import yastik6 from './assets/yastik6.jpg'
-import yastik7 from './assets/yastik7.jpg'
-import yastik8 from './assets/yastik8.jpg'
-import yastik9 from './assets/yastik9.jpg'
-import cam1 from './assets/cam1.png'
-import cam2 from './assets/cam2.png'
-import tahta1 from './assets/tahta1.jpg'
-import tahta6 from './assets/tahta6.jpg'
-import tahta7 from './assets/tahta7.jpg'
-import anadoludan1 from './assets/anadoludan1.jpg'
-import anadoludan2 from './assets/anadoludan2.jpg'
-import anadoludan3 from './assets/anadoludan3.jpg'
-import anadoludan4 from './assets/anadoludan4.jpg'
-import anadoludan5 from './assets/anadoludan5.jpg'
-import anadoludan6 from './assets/anadoludan6.jpg'
-import anadoludan7 from './assets/anadoludan7.jpg'
-import anadoludan8 from './assets/anadoludan8.jpg'
-import anadoludan9 from './assets/anadoludan9.PNG'
+import yastik1 from './assets/yastik1.jpg';
+import yastik2 from './assets/yastik2.jpg';
+import yastik3 from './assets/yastik3.jpg';
+import yastik4 from './assets/yastik4.jpg';
+import yastik5 from './assets/yastik5.jpg';
+import yastik6 from './assets/yastik6.jpg';
+import cam1 from './assets/cam1.png';
+import cam2 from './assets/cam2.png';
+import cam3 from './assets/cam3.jpg';
+import tahta1 from './assets/tahta1.jpg';
+import tahta2 from './assets/tahta2.jpg';
+import tahta3 from './assets/tahta3.jpg';
+import anadoludan1 from './assets/anadoludan1.jpg';
+import anadoludan2 from './assets/anadoludan2.jpg';
+import anadoludan3 from './assets/anadoludan3.jpg';
+import anadoludan4 from './assets/anadoludan4.jpg';
+import anadoludan5 from './assets/anadoludan5.jpg';
+import anadoludan6 from './assets/anadoludan6.jpg';
+import anadoludan7 from './assets/anadoludan7.jpg';
+import anadoludan8 from './assets/anadoludan8.jpg';
+import anadoludan9 from './assets/anadoludan9.PNG';
+import nazar1 from './assets/nazar1.jpg';
+import nazar2 from './assets/nazar2.jpg';
+import nazar3 from './assets/nazar3.jpg';
+import nazar4 from './assets/nazar4.jpg';
+import nazar5 from './assets/nazar5.jpg';
+import nazar6 from './assets/nazar6.jpg';
 
 function Anadoludan() {
     const [selectedLanguage, setSelectedLanguage] = useState('turkish');
@@ -119,17 +122,49 @@ function Anadoludan() {
             <div className = "productImageFlexboxContainer">
                 <div className = "textileImages">
                     <div className = "textileImageContainer">
-                        <img src = {yastik3} className = "productImage" alt = "an image of a pillow"/>
-                        <img src = {yastik9} className = "productImage" alt = "an image of a pillow"/>
                         <img src = {yastik1} className = "productImage" alt = "an image of a pillow"/>
+                        <img src = {yastik2} className = "productImage" alt = "an image of a pillow"/>
+                        <img src = {yastik5} className = "productImage" alt = "an image of a pillow"/>
                     </div>
                 </div>
 
                 <div className = "textileImages">
                     <div className = "textileImageContainer">
-                        <img src = {yastik5} className = "productImage" alt = "an image of a pillow"/>
-                        <img src = {cam1} className = "productImage" alt = "an image of a glass"/>
-                        <img src = {cam2} className = "productImage" alt = "an image of a glass"/>
+                        <img src = {yastik6} className = "productImage" alt = "an image of a pillow"/>
+                        <img src = {yastik4} className = "productImage" alt = "an image of a pillow"/>
+                        <img src = {yastik3} className = "productImage" alt = "an image of a pillow"/>
+                    </div>
+                </div>
+
+                <div className = "textileImages">
+                    <div className = "textileImageContainer">
+                        <img src = {tahta1} className = "productImage" alt = "an image of a wood product"/>
+                        <img src = {tahta2} className = "productImage" alt = "an image of a wood product"/>
+                        <img src = {tahta3} className = "productImage" alt = "an image of a wood product"/>
+                    </div>
+                </div>
+
+                <div className = "textileImages">
+                    <div className = "textileImageContainer">
+                        <img src = {nazar1} className = "productImage" />
+                        <img src = {nazar2} className = "productImage" />
+                        <img src = {nazar3} className = "productImage" />
+                    </div>
+                </div>
+
+                <div className = "textileImages">
+                    <div className = "textileImageContainer">
+                        <img src = {nazar4} className = "productImage" />
+                        <img src = {nazar5} className = "productImage" />
+                        <img src = {nazar6} className = "productImage" />
+                    </div>
+                </div>
+
+                <div className = "textileImages">
+                    <div className = "textileImageContainer">
+                        <img src = {cam1} className = "productImage" alt = "an image of a carafe"/>
+                        <img src = {cam2} className = "productImage" alt = "an image of a carafe"/>
+                        <img src = {cam3} className = "productImage" alt = "an image of a carafe"/>
                     </div>
                 </div>
 
@@ -154,14 +189,6 @@ function Anadoludan() {
                         <img src = {anadoludan6} className = "productImage" alt = "a ceramic image"/>
                         <img src = {anadoludan1} className = "productImage" alt = "a ceramic image"/>  
                         <img src = {anadoludan8} className = "productImage" alt = "a ceramic image"/>
-                    </div>
-                </div>
-
-                <div className = "textileImages">
-                    <div className = "textileImageContainer">
-                        <img src = {tahta6} className = "productImage" alt = "an image of a wood product"/>
-                        <img src = {tahta7} className = "productImage" alt = "an image of a wood product"/>
-                        <img src = {tahta1} className = "productImage" alt = "an image of a wood product"/>
                     </div>
                 </div>              
             </div>

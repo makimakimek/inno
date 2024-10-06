@@ -7,9 +7,7 @@ import Products from './Products'
 import Contact from './Contact'
 import Textile from './Textile'
 import PrintingPress from './PrintingPress'
-import Glass from './Glass'
 import Ceramic from './Ceramic'
-import Wood from './Wood'
 import Promotion from './Promotion'
 import Anadoludan from './Anadoludan'
 
@@ -35,16 +33,8 @@ const router = createBrowserRouter([
     element: <PrintingPress />,
   },
   {
-    path: "glass",
-    element: <Glass />,
-  },
-  {
     path: "ceramic",
     element: <Ceramic />,
-  },
-  {
-    path: "wood",
-    element: <Wood />,
   },
   {
     path: "promotion",
